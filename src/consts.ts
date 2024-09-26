@@ -10,7 +10,7 @@ export const TOPBAR = {
     "mobileText": "新趋势、新开源、新实践｜云栖大会 AI 原生应用架构专场邀您参会",
     "link": "https://nacos.io/blog/nacos-gvr7dx_awbbpb_yuni9sly3l3m6xm9/?source=activity/ ",
     "target": "_blank",
-    "display": true
+    "display": false
 }
 export const MEDIARESOURCE = [
     {
