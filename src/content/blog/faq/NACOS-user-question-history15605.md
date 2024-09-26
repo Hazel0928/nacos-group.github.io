@@ -1,9 +1,11 @@
 ---
 id: "question-history-15605"
 title: "服务端根据nacos.core.auth.plugin.nacos.token.secret.key生成的"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的知识内容，nacos-opensource服务端根据`nacos.core.auth.plugin.nacos.token.secret.key`生成的accessToken确实有过期时间。过期时间的具体值可以通过配置项`nacos.core.auth.plugin.nacos.token"
+tags: ["nacos","opensource","服务端","accessToken","过期时间","处理方式"]
+keywords: ["nacos","opensource","服务端","accessToken","过期时间","处理方式"]
 ---
 
 ## 用户问题 ： 
@@ -22,7 +24,7 @@ description: "根据提供的知识内容，nacos-opensource服务端根据`naco
 
 综上所述，当accessToken过期后，解决办法是重新进行认证以获取新的有效token，确保服务调用的正常进行。这避免了因token失效导致的服务访问中断问题。
 
-参考链接已在上述中提及的知识点内直接展示。
+参考链接已在上述回答中提及的知识点内直接展示。
 
 
 <font color="#949494">---------------</font> 
@@ -39,7 +41,12 @@ description: "根据提供的知识内容，nacos-opensource服务端根据`naco
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15606)给我们反馈。

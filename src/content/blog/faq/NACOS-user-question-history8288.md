@@ -1,11 +1,11 @@
 ---
 id: "question-history-8288"
 title: "在1.4.x版本，Distro协议可以把心跳和注册的流量压力分散到集群的各个节点。但是在2.x版本，由于建"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos 2.x版本中，由于长连接的引入，Distro协议不再像1.4.x版本那样能有效分散心跳和注册的流量压力到集群各节点，这确实可能导致在灰度升级过程中，随着部分节点下线，新建立的长连接集中到剩余节点上，从而引发数据倾斜、内存与CPU占用极高的问题。针对此故障场景，可以采取以下措施进行规避或"
-tags: ["1.4.x","2.x","Distro协议","心跳","注册流量","压力分散","集群节点","灰度升级","客户端切换","长连接","数据倾斜","内存占用极高","CPU占用极高","负载很低","规避措施","预防措施"]
-keywords: ["1.4.x","2.x","Distro协议","心跳","注册流量","压力分散","集群节点","灰度升级","客户端切换","长连接","数据倾斜","内存占用极高","CPU占用极高","负载很低","规避措施","预防措施"]
+tags: ["nacos-opensource","14x","2x","Distro协议","长连接","灰度升级","数据倾斜"]
+keywords: ["nacos-opensource","14x","2x","Distro协议","长连接","灰度升级","数据倾斜"]
 ---
 
 ## 用户问题 ： 
@@ -52,7 +52,12 @@ keywords: ["1.4.x","2.x","Distro协议","心跳","注册流量","压力分散","
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13630)给我们反馈。

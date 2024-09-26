@@ -1,11 +1,11 @@
 ---
 id: "question-history-13388"
 title: "nacos client 1.4.6有没有bug？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据已有的知识内容，没有直接提及Nacos Client 1.4.6版本存在特定的bug。但是，从第一篇参考内容中我们可以了解到，Nacos在不同版本之间存在显著的变化，特别是关于UDP推送功能的调整。在Nacos 1.X系列中，UDP推送可能存在不稳定性和资源消耗问题，且在Nacos 2.0之后，"
-tags: ["nacos client 1.4.6","bug"]
-keywords: ["nacos client 1.4.6","bug"]
+tags: ["nacos-opensource","nacos","client","146","bug"]
+keywords: ["nacos-opensource","nacos","client","146","bug"]
 ---
 
 ## 用户问题 ： 
@@ -39,7 +39,12 @@ keywords: ["nacos client 1.4.6","bug"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13883)给我们反馈。

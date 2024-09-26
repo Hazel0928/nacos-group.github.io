@@ -1,11 +1,11 @@
 ---
 id: "question-history-11186"
 title: "nacos-opensource 为什么Nacos不使用ORM框架访问数据库"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos不使用ORM框架访问数据库的原因在于其设计原则和性能考量。具体分析如下：1. **轻量化与高性能需求**：Nacos作为一款基础组件，主要服务于微服务架构中的服务发现、配置管理等功能，其设计追求轻量级与高性能。引入ORM框架，如JPA，虽然能简化数据库操作，但会显著增加项目的依赖复杂度和部"
-tags: ["Nacos","ORM框架","访问数据库"]
-keywords: ["Nacos","ORM框架","访问数据库"]
+tags: ["nacos-opensource","Nacos","ORM框架","访问数据库"]
+keywords: ["nacos-opensource","Nacos","ORM框架","访问数据库"]
 ---
 
 ## 用户问题 ： 
@@ -41,7 +41,12 @@ Nacos不使用ORM框架访问数据库的原因在于其设计原则和性能考
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13725)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-14888"
 title: "get data from Nacos error"
-date: "2024-06-02"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在处理Nacos get data from Nacos error的问题时，我们可以根据已有知识进行以下分析与解决步骤的提供：### 问题分析1. **错误信息解析**：首先，从错误日志“ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:Clien"
+tags: ["nacos","opensource","get","data","error"]
+keywords: ["nacos","opensource","get","data","error"]
 ---
 
 ## 用户问题 ： 
@@ -60,7 +62,12 @@ description: "在处理Nacos get data from Nacos error的问题时，我们可�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14911)给我们反馈。

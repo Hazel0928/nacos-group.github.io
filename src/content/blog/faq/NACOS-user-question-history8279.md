@@ -1,11 +1,11 @@
 ---
 id: "question-history-8279"
 title: "How to do HTTP health check use register instance por"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要使用HTTP健康检查并利用注册实例端口，可以参照Nacos提供的HTTP API来实现。根据提供的知识内容，以下是具体的步骤：1. **准备服务信息**：   - 确定你需要检查的服务名称（如：`serviceName=nacos.test.1`）。   - 确认服务实例的IP地址（如：`ip=1"
-tags: ["HTTP health check","register instance port"]
-keywords: ["HTTP health check","register instance port"]
+tags: ["nacos-opensource","HTTP","health","check","register","instance","port"]
+keywords: ["nacos-opensource","HTTP","health","check","register","instance","port"]
 ---
 
 ## 用户问题 ： 
@@ -81,7 +81,12 @@ keywords: ["HTTP health check","register instance port"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13625)给我们反馈。

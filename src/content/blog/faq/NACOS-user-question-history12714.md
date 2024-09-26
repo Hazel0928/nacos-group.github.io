@@ -1,11 +1,11 @@
 ---
 id: "question-history-12714"
 title: "nacos 如何修改默认密钥"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos中修改默认密钥主要涉及两个方面：一是配置中心存储的配置加密密钥，二是控制台登录的鉴权密钥。根据提供的知识内容，我们可以分步骤讨论如何修改这两类默认密钥。### 修改配置中心加密密钥对于Nacos配置中心存储的配置加密，Nacos提供了配置加密插件，默认采用AES加密算法。若需修改默认密钥"
-tags: ["nacos","修改","默认密钥"]
-keywords: ["nacos","修改","默认密钥"]
+tags: ["nacos","nacos-opensource","修改","默认密钥"]
+keywords: ["nacos","nacos-opensource","修改","默认密钥"]
 ---
 
 ## 用户问题 ： 
@@ -66,7 +66,12 @@ keywords: ["nacos","修改","默认密钥"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13865)给我们反馈。

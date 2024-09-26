@@ -1,11 +1,11 @@
 ---
 id: "question-history-11765"
 title: "nacos 新增配置是否需要重启？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的知识内容，Nacos配置的新增并不需要重启服务。Nacos作为配置中心，其设计目的之一就是实现配置的动态更新，允许应用在运行时获取并应用最新的配置信息，而无需重启。以下是基于此理解的分析步骤：1. **配置动态刷新机制**：Nacos客户端通过订阅(dataId, group)对应的配置，"
-tags: ["配置","重启"]
-keywords: ["配置","重启"]
+tags: ["nacos","开源","新增","配置","重启","需要","操作"]
+keywords: ["nacos","开源","新增","配置","重启","需要","操作"]
 ---
 
 ## 用户问题 ： 
@@ -43,7 +43,12 @@ keywords: ["配置","重启"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13792)给我们反馈。

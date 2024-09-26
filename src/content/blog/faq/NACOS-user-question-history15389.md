@@ -1,9 +1,11 @@
 ---
 id: "question-history-15389"
 title: "nacos 配置变更通知"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
-description: "在关于`nacos-opensource nacos 配置变更通知`的问题前，我需要确认几个前提条件以提供更准确的帮助：1. **订阅者设置**：确保您的A服务与B服务都已正确配置并监听了相同的`dataId`和`group`。2. **启动顺序与通知依赖性**：您提到A服务消费配置后B服务才启动，"
+description: "在回答关于`nacos-opensource nacos 配置变更通知`的问题前，我需要确认几个前提条件以提供更准确的帮助：1. **订阅者设置**：确保您的A服务与B服务都已正确配置并监听了相同的`dataId`和`group`。2. **启动顺序与通知依赖性**：您提到A服务消费配置后B服务才启"
+tags: ["nacos","开源","配置","变更","通知","系统","监控"]
+keywords: ["nacos","开源","配置","变更","通知","系统","监控"]
 ---
 
 ## 用户问题 ： 
@@ -12,7 +14,7 @@ description: "在关于`nacos-opensource nacos 配置变更通知`的问题前�
 ---------------
 ## 专家官方解答 ：
 
-在关于`nacos-opensource nacos 配置变更通知`的问题前，我需要确认几个前提条件以提供更准确的帮助：
+在回答关于`nacos-opensource nacos 配置变更通知`的问题前，我需要确认几个前提条件以提供更准确的帮助：
 
 1. **订阅者设置**：确保您的A服务与B服务都已正确配置并监听了相同的`dataId`和`group`。
 2. **启动顺序与通知依赖性**：您提到A服务消费配置后B服务才启动，根据Nacos的工作机制，即使B服务启动较晚，只要它正确订阅了配置，就应该能够接收到最新的配置通知。您想了解的是B服务在这种场景下能否确保收到配置更新的通知吗？
@@ -51,7 +53,12 @@ description: "在关于`nacos-opensource nacos 配置变更通知`的问题前�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15404)给我们反馈。

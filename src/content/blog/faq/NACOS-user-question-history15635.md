@@ -1,9 +1,11 @@
 ---
 id: "question-history-15635"
 title: "nacos 没有开启认证 报错user not found"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您描述的问题“nacos-opensource nacos 没有开启认证 报错user not found”，这通常意味着Nacos服务端未正确配置身份验证，导致客户端尝试访问时因未找到认证用户而失败。依据提供的知识内容，我们可以按以下步骤分析并解决问题：### 分析问题原因1. **检查Nac"
+tags: ["nacos","开源","认证","报错","user","not","found"]
+keywords: ["nacos","开源","认证","报错","user","not","found"]
 ---
 
 ## 用户问题 ： 
@@ -55,7 +57,12 @@ description: "根据您描述的问题“nacos-opensource nacos 没有开启认�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15687)给我们反馈。

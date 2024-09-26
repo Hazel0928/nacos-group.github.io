@@ -1,11 +1,11 @@
 ---
 id: "question-history-8182"
 title: "nacos用户密码设置"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos中设置或修改用户密码，可以根据不同的场景采取以下步骤：### 初始化集群时设置默认用户密码1. **修改数据库脚本**：在Nacos集群初始化前，进入`$nacos.home/conf/`目录，编辑`mysql-schema.sql`（假设使用MySQL作为外部数据库），修改默认密码插入"
-tags: ["nacos","用户密码设置"]
-keywords: ["nacos","用户密码设置"]
+tags: ["nacos","opensource","用户","密码","设置"]
+keywords: ["nacos","opensource","用户","密码","设置"]
 ---
 
 ## 用户问题 ： 
@@ -55,7 +55,12 @@ keywords: ["nacos","用户密码设置"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13542)给我们反馈。

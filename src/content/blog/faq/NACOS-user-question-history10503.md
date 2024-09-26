@@ -1,9 +1,11 @@
 ---
 id: "question-history-10503"
 title: "#负载均衡通过什么实现"
-date: "2024-06-26"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos实现负载均衡主要是通过客户端侧的策略来完成的，默认采用的是随机轮询的方式。不过，在实际应用中，尤其涉及到长轮询场景时，可能会观察到负载不均的现象。为了优化这一问题，可以采取以下步骤：### 分析原因1. **随机轮询的局限性**：Nacos客户端默认的随机轮询策略可能在长轮询场景下导致负载"
+tags: ["nacos","开源","负载均衡","实现"]
+keywords: ["nacos","开源","负载均衡","实现"]
 ---
 
 ## 用户问题 ： 
@@ -62,7 +64,12 @@ Nacos实现负载均衡主要是通过客户端侧的策略来完成的，默认
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15889)给我们反馈。

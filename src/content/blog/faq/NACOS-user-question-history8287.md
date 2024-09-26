@@ -1,11 +1,11 @@
 ---
 id: "question-history-8287"
 title: "2.2.3版本nacos服务端长时间运行，堆外内存一直增长。运行10 个小时堆外内存占用达到了堆内存大小的"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的知识内容，我们可以分析和解决您提到的Nacos 2.2.3版本服务端长时间运行后堆外内存持续增长的问题。以下是对问题原因的分析及基于此的解决方案：### 问题分析1. **请求量过大**：短时间内大量的服务注册、配置订阅可能导致Netty在处理这些请求时频繁申请nio堆外内存，若无有效释放"
-tags: ["2.2.3","nacos","服务端","长时间运行","堆外内存","增长","10小时","堆内存","2倍","内存泄露","netty","直接内存"]
-keywords: ["2.2.3","nacos","服务端","长时间运行","堆外内存","增长","10小时","堆内存","2倍","内存泄露","netty","直接内存"]
+tags: ["nacos-opensource","223","nacos","服务端","长时间运行","堆外内存","增长"]
+keywords: ["nacos-opensource","223","nacos","服务端","长时间运行","堆外内存","增长"]
 ---
 
 ## 用户问题 ： 
@@ -55,7 +55,12 @@ keywords: ["2.2.3","nacos","服务端","长时间运行","堆外内存","增长"
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13629)给我们反馈。

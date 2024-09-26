@@ -1,9 +1,11 @@
 ---
 id: "question-history-15641"
 title: "nacos权限绕过漏洞(CVE-2022-0828)，如何解决"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "关于您提到的nacos权限绕过漏洞（CVE-2022-0828），当前我掌握的知识库中并没有直接提及此特定CVE编号的详细信息及解决方案。不过，基于相似问题与背景知识，我可以提供一些可能有帮助的分析与建议路径。### 分析原因根据以往Nacos中身份认证绕过漏洞的处理方式，此类问题通常与以下几个方面"
+tags: ["nacos","开源","权限","绕过","漏洞","CVE-2022-0828","解决"]
+keywords: ["nacos","开源","权限","绕过","漏洞","CVE-2022-0828","解决"]
 ---
 
 ## 用户问题 ： 
@@ -57,7 +59,12 @@ description: "关于您提到的nacos权限绕过漏洞（CVE-2022-0828），当
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15693)给我们反馈。

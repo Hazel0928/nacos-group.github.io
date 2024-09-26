@@ -1,9 +1,11 @@
 ---
 id: "question-history-15231"
 title: "容器部署的nacos集群升级需要注意哪些"
-date: "2024-06-12"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在容器部署的Nacos集群升级过程中，需注意以下几个关键点，依据提供的知识内容，这里主要针对从Nacos 1.x版本升级到Nacos 2.x版本的情况进行说明：### 1. 数据结构变化与双写准备由于Nacos 1.x和Nacos 2.x之间数据结构发生变化，为确保平滑升级，需要在升级前准备好数据的"
+tags: ["nacos","开源","容器","部署","升级","注意事项","集群"]
+keywords: ["nacos","开源","容器","部署","升级","注意事项","集群"]
 ---
 
 ## 用户问题 ： 
@@ -55,7 +57,12 @@ description: "在容器部署的Nacos集群升级过程中，需注意以下几�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15254)给我们反馈。

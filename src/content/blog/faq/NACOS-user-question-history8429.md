@@ -1,11 +1,11 @@
 ---
 id: "question-history-8429"
 title: "大佬我想请教下，我们的4个应用服务和nacos服务分别部署在三台服务器上并且都使用docker部署，也就是"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您的描述，这个问题可能涉及Nacos集群的高可用机制与Docker容器重启后的服务注册逻辑。尽管提供的知识内容没有直接覆盖到您遇到的特定错误信息，我们可以结合Nacos的工作原理和您描述的现象进行分析。### 原因分析：1. **Nacos节点状态转换异常**：A服务器上的Nacos节点状态从U"
-tags: ["高可用","测试","服务器断电","重启","docker","部署","应用服务","nacos server","节点","UP","SUSPICOUS","DOWN","恢复","服务注册","开机自启动","责任节点","分配","日志","receive invalid redirect request","peer","源码","计算责任节点","不一致"]
-keywords: ["高可用","测试","服务器断电","重启","docker","部署","应用服务","nacos server","节点","UP","SUSPICOUS","DOWN","恢复","服务注册","开机自启动","责任节点","分配","日志","receive invalid redirect request","peer","源码","计算责任节点","不一致"]
+tags: ["nacos-opensource","高可用","测试","服务器断电","重启","docker","部署"]
+keywords: ["nacos-opensource","高可用","测试","服务器断电","重启","docker","部署"]
 ---
 
 ## 用户问题 ： 
@@ -60,7 +60,12 @@ keywords: ["高可用","测试","服务器断电","重启","docker","部署","�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13650)给我们反馈。

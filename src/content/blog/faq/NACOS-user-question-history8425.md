@@ -1,11 +1,11 @@
 ---
 id: "question-history-8425"
 title: "请教个问题， nacos2.1.1 以standalone部署在k8s上，在服务日志里面时不时的出现 下面"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您的描述，错误信息指向的是Nacos客户端在尝试与Nacos服务器进行长轮询(longPolling)配置更新时遇到的连接问题。具体错误为`java.net.ConnectException: no available server`，表明客户端无法找到可用的服务器。尽管Nacos服务端日志没有"
-tags: ["nacos2.1.1","standalone","k8s","服务日志","错误信息","spring版本","nacos不匹配","ClientWorker","longPolling","java.net.ConnectException","no available server","currentServerAddr","http: nacos:8848"]
-keywords: ["nacos2.1.1","standalone","k8s","服务日志","错误信息","spring版本","nacos不匹配","ClientWorker","longPolling","java.net.ConnectException","no available server","currentServerAddr","http: nacos:8848"]
+tags: ["nacos-opensource","nacos211","standalone","k8s","服务日志","错误信息","spring版本"]
+keywords: ["nacos-opensource","nacos211","standalone","k8s","服务日志","错误信息","spring版本"]
 ---
 
 ## 用户问题 ： 
@@ -14,7 +14,7 @@ keywords: ["nacos2.1.1","standalone","k8s","服务日志","错误信息","spring
 ---------------
 ## 专家官方解答 ：
 
-根据您的描述，错误信息指向的是Nacos客户端在尝试与Nacos服务器进行长轮询(longPolling)配置更新时遇到的连接问题。具体错误为`java.net.ConnectException: no available server`，表明客户端无法找到可用的服务器。尽管Nacos服务端日志没有显示异常，但这个问题可能源于以下几个方面，结合您提供的上下文（nacos2.1.1、standalone部署在Kubernetes上）以及我了解的知识中的相关内容，我们可以这样分析和解决：
+根据您的描述，错误信息指向的是Nacos客户端在尝试与Nacos服务器进行长轮询(longPolling)配置更新时遇到的连接问题。具体错误为`java.net.ConnectException: no available server`，表明客户端无法找到可用的服务器。尽管Nacos服务端日志没有显示异常，但这个问题可能源于以下几个方面，结合您提供的上下文（nacos2.1.1、standalone部署在Kubernetes上）以及{{{知识}}}中的相关内容，我们可以这样分析和解决：
 
 ### 原因分析
 1. **网络问题**：Kubernetes环境中服务发现可能存在问题，比如服务名`nacos`没有正确解析到Nacos服务器的实际IP地址。
@@ -59,7 +59,12 @@ keywords: ["nacos2.1.1","standalone","k8s","服务日志","错误信息","spring
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13646)给我们反馈。

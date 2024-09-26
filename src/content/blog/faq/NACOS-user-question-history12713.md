@@ -1,11 +1,11 @@
 ---
 id: "question-history-12713"
 title: "nacos关闭双写 需要每个节点执行么？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos 2.3.0及以上版本中，由于这些版本默认不存在双写模式，因此无需执行关闭双写的操作。但针对提问中的“nacos关闭双写需要每个节点执行么？”这一问题，基于Nacos的运作机制和提供的解决方案，如果是在需要关闭双写的旧版本情况下，关闭双写的操作理论上是针对整个集群的配置更改，因而确实需要"
-tags: ["nacos","双写","每个节点","执行"]
-keywords: ["nacos","双写","每个节点","执行"]
+tags: ["nacos-opensource","nacos","双写","每个节点","执行","关闭","需要"]
+keywords: ["nacos-opensource","nacos","双写","每个节点","执行","关闭","需要"]
 ---
 
 ## 用户问题 ： 
@@ -43,7 +43,12 @@ curl -X PUT 'localhost:8848/nacos/v1/ns/operator/switches?entry=doubleWriteEnabl
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13864)给我们反馈。

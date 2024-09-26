@@ -1,9 +1,11 @@
 ---
 id: "question-history-16476"
 title: "nacos启动后目录下的logs目录下日志如何自动清理"
-date: "2024-08-08"
+date: "2024-09-26"
 category: "expertConsultation"
-description: "内容：针对问题“nacos-opensource nacos启动后目录下的logs目录下日志如何自动清理”，我们可以分步骤解析和解答：### 1. 分析问题原因首先，需要了解Nacos日志生成的位置和类型。根据提供的知识，Nacos的日志主要分为两大部分：一是与Nacos服务自身相关的日志，通常位于"
+description: "回答内容：针对问题“nacos-opensource nacos启动后目录下的logs目录下日志如何自动清理”，我们可以分步骤解析和解答：### 1. 分析问题原因首先，需要了解Nacos日志生成的位置和类型。根据提供的知识，Nacos的日志主要分为两大部分：一是与Nacos服务自身相关的日志，通常"
+tags: ["nacos","logs","自动","清理","启动后","目录","日志"]
+keywords: ["nacos","logs","自动","清理","启动后","目录","日志"]
 ---
 
 ## 用户问题 ： 
@@ -12,7 +14,7 @@ description: "内容：针对问题“nacos-opensource nacos启动后目录下�
 ---------------
 ## 专家官方解答 ：
 
-内容：
+回答内容：
 
 针对问题“nacos-opensource nacos启动后目录下的logs目录下日志如何自动清理”，我们可以分步骤解析和解答：
 
@@ -54,7 +56,12 @@ description: "内容：针对问题“nacos-opensource nacos启动后目录下�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16481)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-15796"
 title: "nacos配置中心的缓存目录和容灾目录"
-date: "2024-06-21"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "关于您的问题「nacos-opensource nacos配置中心的缓存目录和容灾目录」，根据提供的知识内容，我们可以这样分析和解答：### 缓存目录的配置与管理1. **Nacos Server的缓存目录**：默认固定在`$nacos.home/data`目录下，目前官方说明指出这个目录是不能修改"
+tags: ["nacos","开源","配置中心","缓存","目录","容灾"]
+keywords: ["nacos","开源","配置中心","缓存","目录","容灾"]
 ---
 
 ## 用户问题 ： 
@@ -53,7 +55,12 @@ description: "关于您的问题「nacos-opensource nacos配置中心的缓存�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15806)给我们反馈。

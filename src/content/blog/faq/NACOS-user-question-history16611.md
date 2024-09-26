@@ -1,9 +1,11 @@
 ---
 id: "question-history-16611"
 title: "nacos更改集群ip后，raft元数据未同步"
-date: "2024-08-15"
+date: "2024-09-26"
 category: "expertConsultation"
-description: "内容如下：### 分析问题原因当遇到`nacos-opensource nacos更改集群IP后，raft元数据未同步`的问题时，我们可以根据已知的知识点进行分析。此问题主要关联到Nacos集群的扩缩容及元数据管理问题。更改集群IP可能导致原有节点间的通信配置不再适用，特别是`cluster.con"
+description: "回答内容如下：### 分析问题原因当遇到`nacos-opensource nacos更改集群IP后，raft元数据未同步`的问题时，我们可以根据已知的知识点进行分析。此问题主要关联到Nacos集群的扩缩容及元数据管理问题。更改集群IP可能导致原有节点间的通信配置不再适用，特别是`cluster.c"
+tags: ["nacos","开源","更改","集群","IP","","raft"]
+keywords: ["nacos","开源","更改","集群","IP","","raft"]
 ---
 
 ## 用户问题 ： 
@@ -12,7 +14,7 @@ description: "内容如下：### 分析问题原因当遇到`nacos-opensource na
 ---------------
 ## 专家官方解答 ：
 
-内容如下：
+回答内容如下：
 
 ### 分析问题原因
 
@@ -63,7 +65,12 @@ description: "内容如下：### 分析问题原因当遇到`nacos-opensource na
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16618)给我们反馈。

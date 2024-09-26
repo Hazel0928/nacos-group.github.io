@@ -1,11 +1,11 @@
 ---
 id: "question-history-8426"
 title: "请教个问题，我的客户端版本是2.2.1，服务端是2.2.3，启动的是报错：[com.alibaba.nac"
-date: "2024-05-29"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据你提供的错误信息，你的Nacos客户端在尝试连接服务端时遇到了`403 Forbidden`错误，具体原因是“user not found”。这意味着客户端虽然版本兼容（客户端2.2.1与服务端2.2.3是兼容的，根据Nacos的兼容性原则），但是认证信息存在问题。以下是基于现有知识的分析及解决"
-tags: ["2.2.1","2.2.3","客户端","服务端","启动","报错","com.alibaba.nacos.client.naming.security","HttpLoginProcessor","login failed","403","user not found"]
-keywords: ["2.2.1","2.2.3","客户端","服务端","启动","报错","com.alibaba.nacos.client.naming.security","HttpLoginProcessor","login failed","403","user not found"]
+tags: ["nacos","opensource","客户端","服务端","版本不匹配","登录失败","错误403"]
+keywords: ["nacos","opensource","客户端","服务端","版本不匹配","登录失败","错误403"]
 ---
 
 ## 用户问题 ： 
@@ -57,7 +57,12 @@ keywords: ["2.2.1","2.2.3","客户端","服务端","启动","报错","com.alibab
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14677)给我们反馈。

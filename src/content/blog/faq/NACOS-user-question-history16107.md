@@ -1,9 +1,11 @@
 ---
 id: "question-history-16107"
 title: "如何通过restful接口向nacos2.3.2中发布json格式值的配置项？"
-date: "2024-07-05"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要通过RESTful接口向Nacos 2.3.2中发布JSON格式值的配置项，虽然直接提供的参考资料未涵盖REST API的使用方法，但我们可以基于Nacos配置管理的基本原理和HTTP请求的基础知识来推导出具体步骤。Nacos配置发布的核心在于发送正确的HTTP请求到Nacos服务器的特定端点。下"
+tags: ["nacos","opensource","restful","接口","发布","json","配置项"]
+keywords: ["nacos","opensource","restful","接口","发布","json","配置项"]
 ---
 
 ## 用户问题 ： 
@@ -67,7 +69,12 @@ curl -X POST "http://<nacos-server-host>:<port>/v1/configs?dataId=<your-data-id>
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16127)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-11414"
 title: "nacos可以用来做什么"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos是一个由阿里巴巴开源的云原生技术栈中的关键组件，它的核心功能围绕着服务发现、配置管理和服务管理展开，具体可以用来做以下几件事：1. **服务发现与健康检查**：Nacos支持DNS和RPC服务发现协议，能够自动注册和发现微服务实例，同时实施健康检查，确保仅将健康的服务实例纳入负载均衡，对于"
-tags: ["nacos","用途"]
-keywords: ["nacos","用途"]
+tags: ["nacos","开源","用途","功能","微服务","配置管理","服务发现"]
+keywords: ["nacos","开源","用途","功能","微服务","配置管理","服务发现"]
 ---
 
 ## 用户问题 ： 
@@ -49,7 +49,12 @@ Nacos是一个由阿里巴巴开源的云原生技术栈中的关键组件，它
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13746)给我们反馈。

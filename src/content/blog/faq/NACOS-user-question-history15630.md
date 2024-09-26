@@ -1,9 +1,11 @@
 ---
 id: "question-history-15630"
 title: "于如何发送请求监测服务器启动成功"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要监测Nacos服务器是否启动成功，您可以按照以下步骤操作：1. **检查启动日志**：   - 首先，您需要查看Nacos安装目录下的`logs/start.out`或`logs/nacos.log`文件。这一步骤是根据我了解的知识中的**第1篇参考内容**指导的。在这些日志文件中寻找类似于`Na"
+tags: ["nacos","opensource","请求","监测","服务器","启动","成功"]
+keywords: ["nacos","opensource","请求","监测","服务器","启动","成功"]
 ---
 
 ## 用户问题 ： 
@@ -45,7 +47,12 @@ description: "要监测Nacos服务器是否启动成功，您可以按照以下�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15682)给我们反馈。

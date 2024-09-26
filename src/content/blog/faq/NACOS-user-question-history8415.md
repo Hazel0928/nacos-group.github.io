@@ -1,11 +1,11 @@
 ---
 id: "question-history-8415"
 title: "java.util.concurrent.RejectedExecutionException: Task"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的错误信息，问题在于`java.util.concurrent.RejectedExecutionException`异常，表明任务被线程池拒绝，尽管`active threads = 0`，这通常意味着线程池队列已满，无法接受更多任务。考虑到这是在Nacos 2.2.3版本中遇到的问题，我"
-tags: ["java.util.concurrent.RejectedExecutionException","Task","io.grpc.internal.SerializingExecutor","rejected","java.util.concurrent.ThreadPoolExecutor","active threads = 0","nacos 2.2.3","avoid","nacos","hang"]
-keywords: ["java.util.concurrent.RejectedExecutionException","Task","io.grpc.internal.SerializingExecutor","rejected","java.util.concurrent.ThreadPoolExecutor","active threads = 0","nacos 2.2.3","avoid","nacos","hang"]
+tags: ["nacos-opensource","javautilconcurrentRejectedExecutionException","Task","rejected","ThreadPoolExecutor","active","threads"]
+keywords: ["nacos-opensource","javautilconcurrentRejectedExecutionException","Task","rejected","ThreadPoolExecutor","active","threads"]
 ---
 
 ## 用户问题 ： 
@@ -60,7 +60,12 @@ keywords: ["java.util.concurrent.RejectedExecutionException","Task","io.grpc.int
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13637)给我们反馈。

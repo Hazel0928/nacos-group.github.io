@@ -1,11 +1,11 @@
 ---
 id: "question-history-10491"
 title: "#Nacos的配置推送如何工作？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos的配置推送工作原理主要经历了不同的发展阶段，在早期的1.X版本中采用了UDP推送作为优化手段，而在2.0及之后的版本中，则转向了更为稳定和高效的TCP连接，具体通过gRPC双向流实现。下面详细解析其工作原理：### Nacos 1.X 版本（UDP推送）在Nacos 1.X版本中，为了加速"
-tags: ["Nacos","配置推送","工作原理"]
-keywords: ["Nacos","配置推送","工作原理"]
+tags: ["Nacos","配置推送","工作原理","开源","机制","解析","实时"]
+keywords: ["Nacos","配置推送","工作原理","开源","机制","解析","实时"]
 ---
 
 ## 用户问题 ： 
@@ -55,7 +55,12 @@ Nacos的配置推送机制从UDP转向gRPC双向流，体现了从追求速度�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13688)给我们反馈。

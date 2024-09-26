@@ -1,9 +1,11 @@
 ---
 id: "question-history-8266"
 title: "开源版本可以支持ak sk鉴权吗？"
-date: "2024-07-01"
+date: "2024-09-26"
 category: "expertConsultation"
-description: "内容要有条理，分步骤：1. **问题分析**：   根据提供的知识内容，特别是第一篇参考内容明确指出，开源版本的Nacos不支持ak/sk鉴权。这是因为ak/sk作为一种云产品特有的鉴权机制，其具体的校验逻辑和实现依赖于特定的云服务商，例如阿里云MSE。开源软件无法内置这些特定于云服务商的鉴权逻辑，"
+description: "回答内容要有条理，分步骤：1. **问题分析**：   根据提供的知识内容，特别是第一篇参考内容明确指出，开源版本的Nacos不支持ak/sk鉴权。这是因为ak/sk作为一种云产品特有的鉴权机制，其具体的校验逻辑和实现依赖于特定的云服务商，例如阿里云MSE。开源软件无法内置这些特定于云服务商的鉴权逻"
+tags: ["nacos","opensource","版本","支持","ak","sk","鉴权"]
+keywords: ["nacos","opensource","版本","支持","ak","sk","鉴权"]
 ---
 
 ## 用户问题 ： 
@@ -12,7 +14,7 @@ description: "内容要有条理，分步骤：1. **问题分析**：   根据�
 ---------------
 ## 专家官方解答 ：
 
-内容要有条理，分步骤：
+回答内容要有条理，分步骤：
 
 1. **问题分析**：
    根据提供的知识内容，特别是第一篇参考内容明确指出，开源版本的Nacos不支持ak/sk鉴权。这是因为ak/sk作为一种云产品特有的鉴权机制，其具体的校验逻辑和实现依赖于特定的云服务商，例如阿里云MSE。开源软件无法内置这些特定于云服务商的鉴权逻辑，因此不支持ak/sk鉴权方式。
@@ -43,7 +45,12 @@ description: "内容要有条理，分步骤：1. **问题分析**：   根据�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15989)给我们反馈。

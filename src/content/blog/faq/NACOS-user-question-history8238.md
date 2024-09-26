@@ -1,11 +1,11 @@
 ---
 id: "question-history-8238"
 title: "nacos的api似乎一直无法获得dataid,这是出于安全考虑吗"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos 设计其 API 时，确实考虑到了安全因素，尤其是对于敏感信息如配置数据（dataid对应的配置内容）的访问控制。虽然直接依据提供的知识无法确定特定情况下 dataid 无法获取是否完全出于安全考虑，但我们可以推测这可能是出于以下几个安全相关的考量：1. **权限控制**：Nacos 支持"
-tags: ["nacos","api","无法获得","dataid","安全考虑"]
-keywords: ["nacos","api","无法获得","dataid","安全考虑"]
+tags: ["nacos","opensource","nacos","api","无法获得","dataid","安全考虑"]
+keywords: ["nacos","opensource","nacos","api","无法获得","dataid","安全考虑"]
 ---
 
 ## 用户问题 ： 
@@ -46,7 +46,12 @@ Nacos 设计其 API 时，确实考虑到了安全因素，尤其是对于敏感
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13590)给我们反馈。

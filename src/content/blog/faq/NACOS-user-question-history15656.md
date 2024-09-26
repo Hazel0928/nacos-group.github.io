@@ -1,9 +1,11 @@
 ---
 id: "question-history-15656"
 title: "openfeign组件，是不是用了nacos的api来获取对应服务的IP"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos开源体系中，关于OpenFeign组件与Nacos的集成，确实利用了Nacos的API来动态地获取对应服务的IP地址。OpenFeign作为Spring Cloud的一个重要组件，它能够基于接口定义来实现HTTP请求的客户端抽象，简化了服务间的调用过程。当与Nacos结合使用时，Open"
+tags: ["nacos","opensource","openfeign","组件","服务","IP","获取"]
+keywords: ["nacos","opensource","openfeign","组件","服务","IP","获取"]
 ---
 
 ## 用户问题 ： 
@@ -49,7 +51,12 @@ description: "在Nacos开源体系中，关于OpenFeign组件与Nacos的集成�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15708)给我们反馈。

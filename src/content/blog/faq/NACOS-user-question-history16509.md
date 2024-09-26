@@ -1,9 +1,11 @@
 ---
 id: "question-history-16509"
 title: "nacos支持不同ip地址的服务注册到同一注册服务器上嘛"
-date: "2024-08-08"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos 支持不同 IP 地址的服务注册到同一个注册服务器上。这一特性是微服务架构中的常见需求，允许分布在不同机器上的服务实例统一管理与发现。从 Nacos 的设计原理与功能上看，无论是持久化服务还是临时服务，均能够接受来自不同 IP 地址的服务实例注册。### 分析依据：- **服务注册机制**"
+tags: ["nacos","opensource","支持","不同","ip","地址","服务"]
+keywords: ["nacos","opensource","支持","不同","ip","地址","服务"]
 ---
 
 ## 用户问题 ： 
@@ -53,7 +55,12 @@ Nacos 支持不同 IP 地址的服务注册到同一个注册服务器上。这�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16515)给我们反馈。

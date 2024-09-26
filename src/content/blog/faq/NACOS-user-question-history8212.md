@@ -1,11 +1,11 @@
 ---
 id: "question-history-8212"
 title: "目前信创要求已经很普遍了，nacos是否有可能支持国产GauessDB数据库呢"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos确实考虑到了对国产数据库的支持需求。根据提供的信息，Nacos从2.2版本开始已经支持了包括PostgreSQL、Oracle及达梦数据库在内的多种数据库，并且提供了数据源插件机制来进一步扩展对其他数据库的支持。这表明Nacos设计时已预留了对不同数据库系统的兼容性接口。针对国产Gaues"
-tags: ["信创","GauessDB数据库","支持"]
-keywords: ["信创","GauessDB数据库","支持"]
+tags: ["nacos-opensource","信创","GauessDB数据库","支持","国产","数据库","要求"]
+keywords: ["nacos-opensource","信创","GauessDB数据库","支持","国产","数据库","要求"]
 ---
 
 ## 用户问题 ： 
@@ -49,7 +49,12 @@ Nacos确实考虑到了对国产数据库的支持需求。根据提供的信息
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13569)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-16513"
 title: "我有2个服务，服务A和服务B，服务A会调用服务B，服务会进行升级，但是服务A和服务B必须同时升级这应该如何"
-date: "2024-08-08"
+date: "2024-09-26"
 category: "expertConsultation"
-description: "内容要有条理，分步骤：1. **分析问题原因：**   服务A依赖服务B，两者需要同时升级以确保兼容性和功能的一致性。根据Nacos的特性（参考第1篇内容），我们知道Nacos配置通知是独立且可靠的，每个订阅者都能收到更新通知，但这里的问题关键在于如何确保服务A和B能够基于同一套升级计划协同操作，而"
+description: "回答内容要有条理，分步骤：1. **分析问题原因：**   服务A依赖服务B，两者需要同时升级以确保兼容性和功能的一致性。根据Nacos的特性（参考第1篇内容），我们知道Nacos配置通知是独立且可靠的，每个订阅者都能收到更新通知，但这里的问题关键在于如何确保服务A和B能够基于同一套升级计划协同操作"
+tags: ["nacos","opensource","服务","A","B","调用","升级"]
+keywords: ["nacos","opensource","服务","A","B","调用","升级"]
 ---
 
 ## 用户问题 ： 
@@ -12,7 +14,7 @@ description: "内容要有条理，分步骤：1. **分析问题原因：**   �
 ---------------
 ## 专家官方解答 ：
 
-内容要有条理，分步骤：
+回答内容要有条理，分步骤：
 
 1. **分析问题原因：**
    服务A依赖服务B，两者需要同时升级以确保兼容性和功能的一致性。根据Nacos的特性（参考第1篇内容），我们知道Nacos配置通知是独立且可靠的，每个订阅者都能收到更新通知，但这里的问题关键在于如何确保服务A和B能够基于同一套升级计划协同操作，而不是依赖Nacos直接解决版本同步问题。
@@ -52,7 +54,12 @@ description: "内容要有条理，分步骤：1. **分析问题原因：**   �
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16524)给我们反馈。

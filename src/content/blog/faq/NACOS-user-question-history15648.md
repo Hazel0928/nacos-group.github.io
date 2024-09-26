@@ -1,9 +1,11 @@
 ---
 id: "question-history-15648"
 title: "如果nacos连接失败，服务间的调用openfeign，多久会不可用？如何修改该缓存时间？"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos连接失败的情况下，服务间通过OpenFeign进行调用时，OpenFeign客户端通常会根据其配置的ribbon或loadbalancer的超时设置来决定何时标记服务为不可用。默认情况下，如果没有特别配置，Ribbon（OpenFeign默认使用的客户端负载均衡器）有以下几个关键的超时配"
+tags: ["nacos","连接失败","openfeign","服务间调用","缓存时间","修改","不可用"]
+keywords: ["nacos","连接失败","openfeign","服务间调用","缓存时间","修改","不可用"]
 ---
 
 ## 用户问题 ： 
@@ -63,7 +65,12 @@ feign:
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15700)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-15222"
 title: "为什么最新版本的Nacos没有发送心跳的API"
-date: "2024-06-12"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据已有的知识内容，我们并没有直接的信息说明最新版本的Nacos为何没有发送心跳的API。但是，我们可以从Nacos的工作机制来进行合理推测。Nacos作为服务发现与注册工具，确实与Eureka有所不同，其中最显著的一点是Nacos采用了健康检查机制而非Eureka的心跳检测机制。这意味着Nacos"
+tags: ["nacos","开源","最新版本","心跳","API","缺失","问题"]
+keywords: ["nacos","开源","最新版本","心跳","API","缺失","问题"]
 ---
 
 ## 用户问题 ： 
@@ -42,7 +44,12 @@ Nacos作为服务发现与注册工具，确实与Eureka有所不同，其中最
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15245)给我们反馈。

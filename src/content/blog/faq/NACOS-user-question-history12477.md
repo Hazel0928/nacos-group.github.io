@@ -1,11 +1,11 @@
 ---
 id: "question-history-12477"
 title: "nacos最小启动内存是多少？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的知识，Nacos并没有明确指出一个绝对的最小启动内存值，而是强调了内存设置应依据实际情况进行调整。不过，可以从建议的配置角度来推断一个合理的起点：1. **JVM堆内存设置**：建议不超过物理内存的70%。尽管这是针对一般情况的建议，而非严格意义上的“最小”值，但我们可理解为在资源受限环境"
-tags: ["最小启动内存"]
-keywords: ["最小启动内存"]
+tags: ["nacos","开源","最小","启动","内存","要求","wk"]
+keywords: ["nacos","开源","最小","启动","内存","要求","wk"]
 ---
 
 ## 用户问题 ： 
@@ -43,7 +43,12 @@ keywords: ["最小启动内存"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13844)给我们反馈。

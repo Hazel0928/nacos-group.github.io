@@ -1,11 +1,11 @@
 ---
 id: "question-history-12711"
 title: "nacos 如何修改密码？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos中修改密码，您可以根据Nacos集群的初始化状态以及您是否拥有管理员权限，选择合适的方法进行操作。以下是具体的步骤指导：### 如果Nacos集群尚未初始化1. **自定义初始化密码**：   - 在部署Nacos前，手动编辑配置文件。找到`$nacos.home/conf/`目录下的`"
-tags: ["修改密码"]
-keywords: ["修改密码"]
+tags: ["nacos","修改密码","开源项目","详细","操作指南","忘记密码","重置方法"]
+keywords: ["nacos","修改密码","开源项目","详细","操作指南","忘记密码","重置方法"]
 ---
 
 ## 用户问题 ： 
@@ -73,7 +73,12 @@ keywords: ["修改密码"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13862)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-16257"
 title: "nacos 1.1.4如何开启认证鉴权"
-date: "2024-07-18"
+date: "2024-09-26"
 category: "expertConsultation"
-description: "为了关于如何在 Nacos 1.1.4 中开启认证鉴权的问题，我们首先回顾一下相关知识内容。从提供的知识中，我们知道Nacos支持多种鉴权方式，包括Java SDK鉴权、Open-API鉴权等。尽管直接针对Nacos 1.1.4版本的详细配置未明确给出，我们可以依据一般流程进行指导。Nacos的安全"
+description: "为了回答关于如何在 Nacos 1.1.4 中开启认证鉴权的问题，我们首先回顾一下相关知识内容。从提供的知识中，我们知道Nacos支持多种鉴权方式，包括Java SDK鉴权、Open-API鉴权等。尽管直接针对Nacos 1.1.4版本的详细配置未明确给出，我们可以依据一般流程进行指导。Nacos的"
+tags: ["nacos","opensource","114","认证","鉴权","开启","方法"]
+keywords: ["nacos","opensource","114","认证","鉴权","开启","方法"]
 ---
 
 ## 用户问题 ： 
@@ -12,7 +14,7 @@ description: "为了关于如何在 Nacos 1.1.4 中开启认证鉴权的问题�
 ---------------
 ## 专家官方解答 ：
 
-为了关于如何在 Nacos 1.1.4 中开启认证鉴权的问题，我们首先回顾一下相关知识内容。
+为了回答关于如何在 Nacos 1.1.4 中开启认证鉴权的问题，我们首先回顾一下相关知识内容。
 
 从提供的知识中，我们知道Nacos支持多种鉴权方式，包括Java SDK鉴权、Open-API鉴权等。尽管直接针对Nacos 1.1.4版本的详细配置未明确给出，我们可以依据一般流程进行指导。Nacos的安全特性允许通过配置来增强访问控制，特别是从Nacos 2.2.3版本起，默认不再提供默认密钥以鼓励用户自定义密钥并开启鉴权功能，这间接提示了即使是较旧版本如1.1.4，也应遵循类似的安全实践原则。
 
@@ -67,7 +69,12 @@ description: "为了关于如何在 Nacos 1.1.4 中开启认证鉴权的问题�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16265)给我们反馈。

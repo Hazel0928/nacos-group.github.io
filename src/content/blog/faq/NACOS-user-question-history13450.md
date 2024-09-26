@@ -1,9 +1,11 @@
 ---
 id: "question-history-13450"
 title: "根据监管部门开展的网络安全检查，发现您的阿里云IP:xxx上的Nacos服务存在高危安全问题，可能导致数据"
-date: "2024-07-15"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据监管部门的网络安全检查结果，您阿里云IP:xxx上的Nacos服务存在高危安全问题，这可能引发数据或资金损失。为了迅速解决这一问题并确保服务的安全性，请参照以下步骤操作：1. **确认问题来源**：   首先，需要确认安全问题的具体性质。虽然直接的解决方案未在提供的知识中明确给出，但根据经验和监"
+tags: ["nacos","开源","网络安全","检查","阿里云","IP","高危安全问题"]
+keywords: ["nacos","开源","网络安全","检查","阿里云","IP","高危安全问题"]
 ---
 
 ## 用户问题 ： 
@@ -51,7 +53,12 @@ description: "根据监管部门的网络安全检查结果，您阿里云IP:xxx
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16224)给我们反馈。

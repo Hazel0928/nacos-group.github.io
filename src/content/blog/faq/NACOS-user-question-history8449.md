@@ -1,11 +1,11 @@
 ---
 id: "question-history-8449"
 title: "Nacos部署对外需要开放哪些端口？只开放8848就可以了吗？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos部署对外开放时，通常需要考虑以下几个端口：1. **主端口 (默认 8848)**：这是客户端、控制台以及OpenAPI所使用的HTTP端口。大部分场景下，与Nacos交互都会通过这个端口进行。2. **客户端gRPC请求服务端端口 (默认 9848)**：用于客户端通过gRPC协议向服务"
-tags: ["Nacos","部署","端口","8848"]
-keywords: ["Nacos","部署","端口","8848"]
+tags: ["nacos","opensource","部署","端口","8848","对外","开放"]
+keywords: ["nacos","opensource","部署","端口","8848","对外","开放"]
 ---
 
 ## 用户问题 ： 
@@ -47,7 +47,12 @@ Nacos部署对外开放时，通常需要考虑以下几个端口：
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13666)给我们反馈。

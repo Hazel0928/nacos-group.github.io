@@ -1,9 +1,11 @@
 ---
 id: "question-history-15244"
 title: "nacos放在公网上，怎么开启鉴权"
-date: "2024-07-15"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "为了在公网环境下安全地部署Nacos并开启鉴权功能，您可以遵循以下步骤操作：### 1. 确认Nacos版本与鉴权需求确保您了解当前Nacos的版本信息，因为不同版本的鉴权配置略有差异。特别是从Nacos 2.2.3版本开始，默认不再提供默认密钥，以增强安全性。### 2. 开启鉴权功能#### 修"
+tags: ["nacos","开源","网络","鉴权","开启","方法","保护"]
+keywords: ["nacos","开源","网络","鉴权","开启","方法","保护"]
 ---
 
 ## 用户问题 ： 
@@ -69,7 +71,12 @@ description: "为了在公网环境下安全地部署Nacos并开启鉴权功能�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16227)给我们反馈。

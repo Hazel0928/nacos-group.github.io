@@ -1,11 +1,11 @@
 ---
 id: "question-history-11828"
 title: "nacos单机(standalone)启动命令"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos单机(standalone)模式下启动命令如下：对于Linux/Unix/Mac系统：1. 打开终端，导航到Nacos的bin目录下。2. 执行启动脚本：`sh startup.sh -m standalone`如果在Ubuntu系统上遇到运行脚本时报错，可以尝试使用bash命令执行：`"
-tags: ["opensource","nacos","standalone","启动命令"]
-keywords: ["opensource","nacos","standalone","启动命令"]
+tags: ["nacos","opensource","standalone","单机","启动命令"]
+keywords: ["nacos","opensource","standalone","单机","启动命令"]
 ---
 
 ## 用户问题 ： 
@@ -40,9 +40,7 @@ keywords: ["opensource","nacos","standalone","启动命令"]
 
 ## 参考链接 ：
 
-* 专家经验：Nacos 快速开始 
- 
- * [Nacos 2.0 升级文档](https://nacos.io/docs/latest/upgrading/200-upgrading)
+* [Nacos 2.0 升级文档](https://nacos.io/docs/latest/upgrading/200-upgrading)
  
  * 专家经验：nacos的部署 
 
@@ -53,7 +51,12 @@ keywords: ["opensource","nacos","standalone","启动命令"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13815)给我们反馈。

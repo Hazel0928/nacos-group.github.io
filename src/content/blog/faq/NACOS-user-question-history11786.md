@@ -1,9 +1,11 @@
 ---
 id: "question-history-11786"
 title: "使用nacos 作为spring cloud 的注册中心、配置中心搭建的具体方法"
-date: "2024-05-31"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要使用Nacos作为Spring Cloud的注册中心和配置中心进行搭建，可以遵循以下步骤：### 1. 环境准备与依赖添加- **下载并启动Nacos Server**：首先，确保你已按照[Nacos快速入门](../quickstart/quick-start.md)的指引下载并启动了Nacos"
+tags: ["nacos","spring","cloud","注册中心","配置中心","搭建","方法"]
+keywords: ["nacos","spring","cloud","注册中心","配置中心","搭建","方法"]
 ---
 
 ## 用户问题 ： 
@@ -88,7 +90,12 @@ spring:
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14855)给我们反馈。

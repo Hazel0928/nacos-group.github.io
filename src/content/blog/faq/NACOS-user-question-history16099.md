@@ -1,9 +1,11 @@
 ---
 id: "question-history-16099"
 title: "nacos 没有配置数据库，在页面修改登入密码后启动不起来如何处理？"
-date: "2024-07-05"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "首先，我们来分析问题的原因。根据您的描述，您在没有为Nacos配置数据库的情况下，在页面上修改了登录密码，之后Nacos无法启动。这可能是由于以下几个方面造成的：1. **密码存储方式改变**：Nacos在没有配置外部数据库时，默认使用嵌入式数据库存储数据，包括用户凭据。如果您直接在界面修改密码，而"
+tags: ["nacos","开源","修改","登录密码","启动失败","处理","方法"]
+keywords: ["nacos","开源","修改","登录密码","启动失败","处理","方法"]
 ---
 
 ## 用户问题 ： 
@@ -62,7 +64,12 @@ description: "首先，我们来分析问题的原因。根据您的描述，您
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16102)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-15791"
 title: "nacos配置中心原理"
-date: "2024-06-21"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos配置中心的工作原理主要基于以下几个核心步骤，结合您提供的知识内容，我们可以深入解析这一过程：### 1. **服务启动与配置初始化**- **添加依赖**：在Spring Boot项目中，通过添加`nacos-config-spring-boot-starter`依赖，使得应用能够与Nac"
+tags: ["Nacos","开源","配置中心","原理"]
+keywords: ["Nacos","开源","配置中心","原理"]
 ---
 
 ## 用户问题 ： 
@@ -55,7 +57,12 @@ Nacos配置中心的核心在于其提供了一个集中式的配置管理和服
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15801)给我们反馈。

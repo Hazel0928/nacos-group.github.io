@@ -1,9 +1,11 @@
 ---
 id: "question-history-15029"
 title: "spring cloud alibaba 分布式事务"
-date: "2024-06-05"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "关于您的问题「nacos-opensource spring cloud alibaba 分布式事务」，从提供的知识内容来看，没有直接涉及分布式事务管理的具体实现细节。但是，我们可以基于现有的信息，对如何在使用Nacos与Spring Cloud Alibaba的环境下考虑分布式事务管理做一些基本的"
+tags: ["nacos","opensource","spring","cloud","alibaba","分布式","事务"]
+keywords: ["nacos","opensource","spring","cloud","alibaba","分布式","事务"]
 ---
 
 ## 用户问题 ： 
@@ -69,7 +71,12 @@ description: "关于您的问题「nacos-opensource spring cloud alibaba 分布�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15120)给我们反馈。

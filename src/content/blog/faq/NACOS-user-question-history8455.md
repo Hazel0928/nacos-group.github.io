@@ -1,11 +1,11 @@
 ---
 id: "question-history-8455"
 title: "请问下nacos2.0.3我们遇到了非自己人插入的配置列表，IP为韩国，密码我们设置了强密码，有那些方式可"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您描述的情况，即在Nacos 2.0.3中遇到了非授权IP（位于韩国）插入的配置列表，尽管已设置了强密码，这可能是由以下几个原因造成的，并附带可能的影响及建议措施：### 原因分析：1. **安全配置不当**：可能存在未正确配置访问控制列表（ACL）或网络策略，导致外部IP能够访问到Nacos服"
-tags: ["nacos2.0.3","配置列表","韩国","强密码","入侵方式","影响"]
-keywords: ["nacos2.0.3","配置列表","韩国","强密码","入侵方式","影响"]
+tags: ["nacos-opensource","nacos203","配置列表","韩国","强密码","入侵方式","影响"]
+keywords: ["nacos-opensource","nacos203","配置列表","韩国","强密码","入侵方式","影响"]
 ---
 
 ## 用户问题 ： 
@@ -58,7 +58,12 @@ keywords: ["nacos2.0.3","配置列表","韩国","强密码","入侵方式","影�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13672)给我们反馈。

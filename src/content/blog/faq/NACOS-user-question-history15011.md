@@ -1,9 +1,11 @@
 ---
 id: "question-history-15011"
 title: "开启鉴权后，提示用户名或密码出错"
-date: "2024-07-01"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "当您在nacos-opensource开启鉴权后遇到提示“用户名或密码出错”，这可能是由于以下几个原因造成的：1. **密码输入错误**：最直接的原因可能是您输入的用户名或密码不正确。请确保输入的密码与您设置或修改后的密码完全一致。考虑到Nacos使用BCrypt对密码进行了加密存储，直接查看数据库"
+tags: ["nacos","开源","鉴权","用户名","密码","错误","提示"]
+keywords: ["nacos","开源","鉴权","用户名","密码","错误","提示"]
 ---
 
 ## 用户问题 ： 
@@ -53,7 +55,12 @@ description: "当您在nacos-opensource开启鉴权后遇到提示“用户名�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16007)给我们反馈。

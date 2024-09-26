@@ -1,11 +1,11 @@
 ---
 id: "question-history-11762"
 title: "使用nacos当注册中心具体要怎么做？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要使用Nacos作为服务注册中心，可以遵循以下步骤进行配置和使用：1. **环境准备**：   - 确保Java环境已安装，因为Nacos运行需要Java支持。推荐使用Java 8或更高版本。   - 下载并安装Nacos Server。你可以从[Nacos官方GitHub](https://git"
-tags: ["nacos","注册中心","怎么做"]
-keywords: ["nacos","注册中心","怎么做"]
+tags: ["nacos","开源","注册中心","使用","方法","实现",""]
+keywords: ["nacos","开源","注册中心","使用","方法","实现",""]
 ---
 
 ## 用户问题 ： 
@@ -73,7 +73,12 @@ keywords: ["nacos","注册中心","怎么做"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13789)给我们反馈。

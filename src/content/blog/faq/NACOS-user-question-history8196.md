@@ -1,11 +1,11 @@
 ---
 id: "question-history-8196"
 title: "项目启动注册nacos时本地生成的logs和nacos目录支持修改？非源码启动"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在非源码启动的情况下，针对nacos-opensource项目启动并注册到Nacos时，本地自动生成的`logs`和`nacos`目录的支持修改情况，可以依据以下分析与建议进行操作：### 分析原因1. **logs目录**: 默认情况下，Nacos服务器会生成日志文件在指定的日志目录下，这个路径通"
-tags: ["项目启动","注册nacos","本地生成","logs","nacos目录","支持修改","非源码启动"]
-keywords: ["项目启动","注册nacos","本地生成","logs","nacos目录","支持修改","非源码启动"]
+tags: ["nacos-opensource","项目启动","注册nacos","本地生成","logs","nacos目录","支持修改"]
+keywords: ["nacos-opensource","项目启动","注册nacos","本地生成","logs","nacos目录","支持修改"]
 ---
 
 ## 用户问题 ： 
@@ -66,7 +66,12 @@ keywords: ["项目启动","注册nacos","本地生成","logs","nacos目录","支
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13555)给我们反馈。

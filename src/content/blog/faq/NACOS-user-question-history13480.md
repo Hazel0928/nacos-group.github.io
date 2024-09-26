@@ -1,11 +1,11 @@
 ---
 id: "question-history-13480"
 title: "nacos 集群部署"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在进行Nacos集群部署时，需关注以下几个关键步骤和注意事项，以确保部署的成功与安全性：### 1. 鉴权配置为了保障Nacos集群的安全，建议启用鉴权功能。根据Nacos官方文档，需要配置以下参数：- `nacos.core.auth.enabled`=true 开启鉴权功能。- `nacos.c"
-tags: ["nacos","集群部署"]
-keywords: ["nacos","集群部署"]
+tags: ["nacos","nacos-opensource","集群部署","开源","软件","注册","配置管理"]
+keywords: ["nacos","nacos-opensource","集群部署","开源","软件","注册","配置管理"]
 ---
 
 ## 用户问题 ： 
@@ -76,7 +76,12 @@ Nacos集群需要正确配置端口以确保服务间的通信无阻。默认情
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13905)给我们反馈。

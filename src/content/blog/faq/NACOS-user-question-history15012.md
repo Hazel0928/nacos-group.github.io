@@ -1,9 +1,11 @@
 ---
 id: "question-history-15012"
 title: "arm架构的nacos怎么安装，不使用docker"
-date: "2024-06-05"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您提供的信息，关于在ARM架构上安装Nacos而不使用Docker的问题，当前知识库中并未直接提供针对ARM架构的具体安装指南。但是，我们可以尝试基于现有的x86_64安装流程，结合ARM架构的特点，给出一些指导性的建议。请注意，以下步骤可能需要您根据实际情况调整。### 分析问题原因ARM架构"
+tags: ["nacos","opensource","arm架构","安装","方法","docker"]
+keywords: ["nacos","opensource","arm架构","安装","方法","docker"]
 ---
 
 ## 用户问题 ： 
@@ -53,7 +55,7 @@ mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U
 ### 解释说明
 上述步骤是基于x86_64安装流程的调整尝试，关键在于从源码编译以确保软件能够适配ARM架构。由于缺少直接针对ARM的官方指南，实际操作中可能会遇到一些预料之外的问题，如编译失败或运行时错误，这些都需要根据具体情况灵活解决。此外，考虑到Nacos的持续发展，未来官方可能直接提供ARM编译版本或更详细的安装指南，建议密切关注Nacos的官方文档更新。
 
-由于直接未能提供确切步骤，建议您在操作前做好充分的调研和备份工作，或考虑参与Nacos的社区讨论，寻求其他成功部署在ARM架构上的用户的建议。
+由于直接回答未能提供确切步骤，建议您在操作前做好充分的调研和备份工作，或考虑参与Nacos的社区讨论，寻求其他成功部署在ARM架构上的用户的建议。
 
 
 <font color="#949494">---------------</font> 
@@ -61,7 +63,6 @@ mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U
 
 ## 参考链接 ：
 
-* 专家经验：Nacos 快速开始 
 
 
  <font color="#949494">---------------</font> 
@@ -70,7 +71,12 @@ mvn -Prelease-nacos -Dmaven.test.skip=true clean install -U
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15065)给我们反馈。

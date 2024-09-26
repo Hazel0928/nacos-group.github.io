@@ -1,9 +1,11 @@
 ---
 id: "question-history-14774"
 title: "nacos 集群模式，在其中一台实例上操作服务下线后，在其它节点上服务已经下线，但是在当前节点上实例依旧在"
-date: "2024-05-30"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的知识内容，我们可以分析和解答您的问题：在Nacos集群模式中，如果您在其中一台实例上操作服务下线，但在当前操作的节点上该服务实例依然显示在线，这可能是由于以下几个原因造成的：1. **服务实例心跳机制**：服务实例通过发送心跳到Nacos来维持其在线状态。即使您在管理界面将其下线，如果该实"
+tags: ["nacos","集群模式","服务下线","节点","在线状态","不一致","问题"]
+keywords: ["nacos","集群模式","服务下线","节点","在线状态","不一致","问题"]
 ---
 
 ## 用户问题 ： 
@@ -53,7 +55,12 @@ description: "根据提供的知识内容，我们可以分析和解答您的问
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14786)给我们反馈。

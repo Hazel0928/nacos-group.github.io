@@ -1,9 +1,11 @@
 ---
 id: "question-history-15425"
 title: "为什么Nacos 开启了控制台鉴权，但配置权限无法限制只针对特定的 namespace"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "首先，让我们分析问题的原因。根据您的描述，您已经开启了Nacos的控制台鉴权，但是发现配置权限无法限制只针对特定的namespace。这通常意味着尽管鉴权机制已经被激活，但是在配置权限管理上可能存在配置不当或者理解偏差。在Nacos中，鉴权与权限控制是两个层面的概念。鉴权确保了访问Nacos的用户身"
+tags: ["nacos","控制台","鉴权","权限限制","namespace"]
+keywords: ["nacos","控制台","鉴权","权限限制","namespace"]
 ---
 
 ## 用户问题 ： 
@@ -60,7 +62,12 @@ description: "首先，让我们分析问题的原因。根据您的描述，您
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15495)给我们反馈。

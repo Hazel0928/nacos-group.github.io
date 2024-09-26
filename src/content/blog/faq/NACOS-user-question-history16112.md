@@ -1,9 +1,11 @@
 ---
 id: "question-history-16112"
 title: "nacos2.2 客户端如何拉取？服务的入口是哪里？"
-date: "2024-07-05"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos 2.2中，客户端拉取服务列表的入口主要通过Nacos提供的SDK来实现，具体到Java客户端的使用方法如下：1. **初始化配置服务**：首先，需要初始化`ConfigService`对象，这一步中包含了服务地址(serverAddr)、用户名(username)和密码(passwor"
+tags: ["nacos","opensource","nacos22","客户端","拉取","服务","入口"]
+keywords: ["nacos","opensource","nacos22","客户端","拉取","服务","入口"]
 ---
 
 ## 用户问题 ： 
@@ -62,7 +64,12 @@ List<Instance> instances = namingService.getAllInstances("你的服务名", "你
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16132)给我们反馈。

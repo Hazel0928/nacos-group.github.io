@@ -1,9 +1,11 @@
 ---
 id: "question-history-14866"
 title: "nacos集群健康监测"
-date: "2024-06-02"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要进行Nacos集群的健康监测，我们可以采取以下步骤：1. **配置Metrics暴露**：   首先，确保每个Nacos节点上的`application.properties`文件中配置了Metrics数据的暴露。这可以通过添加以下行实现：   ```   management.endpoints"
+tags: ["nacos","集群","健康","监测","开源","系统","架构"]
+keywords: ["nacos","集群","健康","监测","开源","系统","架构"]
 ---
 
 ## 用户问题 ： 
@@ -58,7 +60,12 @@ description: "要进行Nacos集群的健康监测，我们可以采取以下步�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14891)给我们反馈。

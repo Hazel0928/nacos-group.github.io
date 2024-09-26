@@ -1,11 +1,11 @@
 ---
 id: "question-history-12710"
 title: "nacos的默认用户名密码是什么？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos的默认用户名和密码均为`nacos`。这一信息是在Nacos初始化时设置的，默认管理员账户的凭证。如果您需要修改这些默认凭证，可以根据Nacos的不同使用阶段参照以下步骤操作：1. **初始化集群前修改默认密码：**   - 在Nacos集群启动前，编辑`$nacos.home/conf/"
-tags: ["nacos","默认用户名密码"]
-keywords: ["nacos","默认用户名密码"]
+tags: ["nacos","nacos-opensource","默认","用户名","密码","什么","是"]
+keywords: ["nacos","nacos-opensource","默认","用户名","密码","什么","是"]
 ---
 
 ## 用户问题 ： 
@@ -52,7 +52,12 @@ Nacos的默认用户名和密码均为`nacos`。这一信息是在Nacos初始化
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13861)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-11206"
 title: "NacosException: http error, code=403,msg=user not fou"
-date: "2024-07-15"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您提供的错误信息，这个问题与Nacos访问时的权限认证相关，具体表现为用户未找到（user not found）。根据已有知识，我们可以分析并提供相应的解决步骤。### 问题分析1. **错误描述**：`NacosException: http error, code=403,msg=user "
-tags: ["http error","code=403","msg=user not found!","dataId=application-dev.yml","group=DEFAULT_GROUP","tenant="]
-keywords: ["http error","code=403","msg=user not found!","dataId=application-dev.yml","group=DEFAULT_GROUP","tenant="]
+tags: ["NacosException","http","error","code=403","msg=user","not","found!"]
+keywords: ["NacosException","http","error","code=403","msg=user","not","found!"]
 ---
 
 ## 用户问题 ： 
@@ -69,7 +69,12 @@ keywords: ["http error","code=403","msg=user not found!","dataId=application-dev
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16233)给我们反馈。

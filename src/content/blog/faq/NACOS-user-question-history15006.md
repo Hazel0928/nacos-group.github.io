@@ -1,9 +1,11 @@
 ---
 id: "question-history-15006"
 title: "针对临时实例，哪些情况可能导致服务状态变为下线？"
-date: "2024-06-05"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "针对Nacos中临时实例（ephemeral=true），服务状态可能会因为以下情况变为下线：1. **微服务应用停止或断开连接**：临时服务的生命周期与微服务应用的运行状态直接相关。当微服务应用停止运行或与Nacos服务器的连接中断时，由于无法继续发送心跳，Nacos会自动将此服务实例标记为下线。"
+tags: ["nacos","opensource","临时实例","服务状态","下线","原因","分析"]
+keywords: ["nacos","opensource","临时实例","服务状态","下线","原因","分析"]
 ---
 
 ## 用户问题 ： 
@@ -57,7 +59,12 @@ description: "针对Nacos中临时实例（ephemeral=true），服务状态可�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15059)给我们反馈。

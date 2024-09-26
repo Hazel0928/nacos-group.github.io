@@ -1,9 +1,11 @@
 ---
 id: "question-history-15646"
 title: "nacos的客户端支持这种方式吗？客户端缓存服务实例信息"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos的客户端确实支持服务实例信息的缓存。根据提供的知识内容，客户端缓存一般位于`$user.home/nacos`目录下，默认情况下，如果需要清除这些缓存信息，可以直接删除该目录下的内容。另外，如果客户端特别设置了缓存目录（通过JVM参数`JM.SNAPSHOT.PATH`指定），则清理相应自"
+tags: ["nacos","开源","客户端","支持","服务","实例","缓存"]
+keywords: ["nacos","开源","客户端","支持","服务","实例","缓存"]
 ---
 
 ## 用户问题 ： 
@@ -37,7 +39,12 @@ Nacos的客户端确实支持服务实例信息的缓存。根据提供的知识
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15698)给我们反馈。

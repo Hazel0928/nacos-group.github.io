@@ -1,9 +1,11 @@
 ---
 id: "question-history-15151"
 title: "nacos 端口介绍"
-date: "2024-06-07"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "关于Nacos端口的介绍，根据提供的知识内容，可以详细解析如下：### Nacos默认及重要端口说明Nacos服务端暴露的主要端口及其用途包括：1. **主端口 (默认8848)**: 这是Nacos客户端、控制台以及OpenAPI所使用的HTTP端口，用于配置管理、服务发现的HTTP请求。2. *"
+tags: ["nacos","开源","端口","介绍"]
+keywords: ["nacos","开源","端口","介绍"]
 ---
 
 ## 用户问题 ： 
@@ -62,7 +64,12 @@ Nacos服务端暴露的主要端口及其用途包括：
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15161)给我们反馈。

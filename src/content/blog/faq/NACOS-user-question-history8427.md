@@ -1,11 +1,11 @@
 ---
 id: "question-history-8427"
 title: "请教个问题，我的客户端版本是2.2.1，服务端是2.2.3，启动的是报错：[com.alibaba.nac"
-date: "2024-05-29"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据你描述的问题，结合已有知识，我们可以分析并尝试解决你遇到的`user not found!`错误及频繁提示的情况。### 分析原因：1. **认证信息未正确配置**：错误信息表明登录失败，用户未找到，这通常意味着客户端在向服务端发送请求时携带的认证信息（如token）未被服务端识别，可能是因为认"
-tags: ["客户端版本2.2.1","服务端2.2.3","报错","login failed","403","user not found","discovery心跳3秒","nacos.core.auth.enabled=true"]
-keywords: ["客户端版本2.2.1","服务端2.2.3","报错","login failed","403","user not found","discovery心跳3秒","nacos.core.auth.enabled=true"]
+tags: ["nacos","客户端版本","服务端","报错","login","failed","403"]
+keywords: ["nacos","客户端版本","服务端","报错","login","failed","403"]
 ---
 
 ## 用户问题 ： 
@@ -67,7 +67,12 @@ keywords: ["客户端版本2.2.1","服务端2.2.3","报错","login failed","403"
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14678)给我们反馈。

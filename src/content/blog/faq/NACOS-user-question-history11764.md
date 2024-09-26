@@ -1,11 +1,11 @@
 ---
 id: "question-history-11764"
 title: "nacos可以重启吗？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos服务是可以重启的，但重启后可能会遇到如“NacosException: failed to req API”这类异常，尤其是在Nacos服务所在的机器IP发生改变的情况下。根据提供的知识内容，这里有一些与重启相关的处理步骤和注意事项：1. **理解重启后的潜在问题**：重启Nacos服务器"
-tags: ["nacos","重启"]
-keywords: ["nacos","重启"]
+tags: ["nacos","nacos-opensource","重启","可以","吗","文章","内容"]
+keywords: ["nacos","nacos-opensource","重启","可以","吗","文章","内容"]
 ---
 
 ## 用户问题 ： 
@@ -41,8 +41,6 @@ Nacos服务是可以重启的，但重启后可能会遇到如“NacosException:
 
 * 专家经验：Nacos重启后再启动微服务项目时，后台出现“NacosException: failed to req API”异常解决办法 
  
- * 专家经验：Nacos 快速开始 
- 
  * 专家经验：开源版本可以支持ak/sk鉴权吗？ 
 
 
@@ -52,7 +50,12 @@ Nacos服务是可以重启的，但重启后可能会遇到如“NacosException:
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13791)给我们反馈。

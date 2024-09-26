@@ -1,11 +1,11 @@
 ---
 id: "question-history-11841"
 title: "could not find leader : naming_persistent_service_v2"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "针对您遇到的问题——`nacos-opensource could not find leader: naming_persistent_service_v2`，依据提供的知识，我们可以按照以下步骤进行排查和解决：1. **检查集群配置**：   - 首先，需仔细审查`cluster.conf`文件"
-tags: ["could not find leader","naming_persistent_service_v2"]
-keywords: ["could not find leader","naming_persistent_service_v2"]
+tags: ["nacos-opensource","could","not","find","leader","naming_persistent_service_v2"]
+keywords: ["nacos-opensource","could","not","find","leader","naming_persistent_service_v2"]
 ---
 
 ## 用户问题 ： 
@@ -52,7 +52,12 @@ keywords: ["could not find leader","naming_persistent_service_v2"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13820)给我们反馈。

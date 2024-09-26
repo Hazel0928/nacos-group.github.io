@@ -1,9 +1,11 @@
 ---
 id: "question-history-15614"
 title: "nacos必须开启鉴权吗"
-date: "2024-07-15"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos并不强制要求必须开启鉴权，但它是一个内网核心组件，主要负责配置管理、服务发现等关键功能。根据最佳实践和安全性考虑，**强烈建议**对Nacos集群开启鉴权功能，尤其是在以下情况：1. **暴露公网访问**：当Nacos服务器计划或已经部署在可公开访问的网络环境下，为了防止未经授权的访问和潜"
+tags: ["nacos","开源","鉴权","必须","开启","文章","内容"]
+keywords: ["nacos","开源","鉴权","必须","开启","文章","内容"]
 ---
 
 ## 用户问题 ： 
@@ -78,7 +80,12 @@ docker run --env NACOS_AUTH_ENABLE=true ... other options ...
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16229)给我们反馈。

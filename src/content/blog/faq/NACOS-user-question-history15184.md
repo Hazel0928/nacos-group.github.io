@@ -1,9 +1,11 @@
 ---
 id: "question-history-15184"
 title: "nacos 仅做配置中心 基于spring cloud alibaba的配置样例"
-date: "2024-06-08"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要实现Nacos仅作为配置中心，并基于Spring Cloud Alibaba的配置样例，我们可以参考以下步骤进行配置：### 1. 引入依赖首先，确保你的项目中引入了正确的依赖。对于Spring Cloud Alibaba，你需要在项目的`pom.xml`文件中加入`spring-cloud-st"
+tags: ["nacos","开源","配置中心","Spring","Cloud","Alibaba","示例"]
+keywords: ["nacos","开源","配置中心","Spring","Cloud","Alibaba","示例"]
 ---
 
 ## 用户问题 ： 
@@ -105,7 +107,12 @@ public class YourConfigProperties {
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15204)给我们反馈。

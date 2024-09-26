@@ -1,11 +1,11 @@
 ---
 id: "question-history-8237"
 title: "nacos 开源版本类型"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos的开源版本主要分为两大类：稳定版本和历史迭代版本。根据官方推荐，Nacos 1.0之后的非ALPHA、BETA、RC版本均视为稳定版本，但请注意，1.X系列的功能迭代已停止，主要针对重大BUG和安全漏洞进行修复。因此，对于寻求最新特性和持续维护支持的用户，应选择2.X的最新稳定版本。这些稳"
-tags: ["nacos","开源版本类型"]
-keywords: ["nacos","开源版本类型"]
+tags: ["nacos","nacos-opensource","开源","版本","类型"]
+keywords: ["nacos","nacos-opensource","开源","版本","类型"]
 ---
 
 ## 用户问题 ： 
@@ -42,7 +42,12 @@ Nacos采用的Apache License 2.0许可协议鼓励并允许用户进行二次开
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13589)给我们反馈。

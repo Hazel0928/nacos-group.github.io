@@ -1,11 +1,11 @@
 ---
 id: "question-history-12682"
 title: "nacos启动内存设置多少好些？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "针对Nacos启动内存设置的问题，根据已有的知识，我们可以分析并给出建议如下：1. **分析问题原因**：Nacos内存占用主要涉及三个方面——JVM堆内存、网络NIO堆外内存和Rocksdb直接内存。其中，JVM堆内存及NIO堆外内存的设置不当往往是导致内存占用过大的主要原因。2. **具体步骤建"
-tags: ["内存设置"]
-keywords: ["内存设置"]
+tags: ["nacos","开源","启动","内存","设置","性能","优化"]
+keywords: ["nacos","开源","启动","内存","设置","性能","优化"]
 ---
 
 ## 用户问题 ： 
@@ -46,7 +46,12 @@ keywords: ["内存设置"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13850)给我们反馈。

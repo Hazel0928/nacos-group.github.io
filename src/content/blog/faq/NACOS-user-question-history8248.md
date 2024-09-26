@@ -1,11 +1,11 @@
 ---
 id: "question-history-8248"
 title: "nacos 是否可以专门划分一个模块去编写对应编写springboot的适配呢"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos确实可以专门为Spring Boot编写一个适配模块，实际上，Nacos社区已经提供了这样的支持。根据提供的知识内容，可以看到有以下关键点：1. **Nacos Spring Project**: Nacos团队为Spring框架提供了适配支持，相关的适配用例和代码可以在[https://"
-tags: ["nacos","springboot","适配","模块"]
-keywords: ["nacos","springboot","适配","模块"]
+tags: ["nacos","opensource","springboot","适配","模块","编写","分割"]
+keywords: ["nacos","opensource","springboot","适配","模块","编写","分割"]
 ---
 
 ## 用户问题 ： 
@@ -43,7 +43,12 @@ Nacos确实可以专门为Spring Boot编写一个适配模块，实际上，Naco
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13599)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-15617"
 title: "nacos配置修改后，客户端logback线程一直创建，导致oom。nacos client 版本：2.0"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据已有的知识，我们可以分析您遇到的问题：nacos配置修改后，客户端logback线程一直创建，导致OOM（Out Of Memory）的现象。您使用的nacos client版本为2.0.4，服务端版本为2.1.0。尽管直接的知识点没有完全覆盖您的具体问题，我们可以尝试从已有的信息中推导可能的原"
+tags: ["nacos","配置","修改","客户端","logback","线程","OOM"]
+keywords: ["nacos","配置","修改","客户端","logback","线程","OOM"]
 ---
 
 ## 用户问题 ： 
@@ -58,7 +60,12 @@ description: "根据已有的知识，我们可以分析您遇到的问题：nac
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15676)给我们反馈。

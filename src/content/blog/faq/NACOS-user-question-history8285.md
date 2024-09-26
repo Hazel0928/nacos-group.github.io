@@ -1,11 +1,11 @@
 ---
 id: "question-history-8285"
 title: "Nacos Docker可以配置Ldap进行权限认证吗？期望在docker中配置环境变量，启用ldap进行"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据当前提供的知识内容，虽然没有直接提及Nacos Docker环境中配置LDAP进行权限认证的步骤，但我们可以基于Nacos的一般配置原则和Docker容器化部署的特点，推理出一个大致的配置方法。请注意，以下步骤是基于通用理解和推理，具体实现可能需要根据Nacos的最新文档和实际部署环境调整。##"
-tags: ["Nacos","Docker","Ldap","权限认证","环境变量","ldap","身份认证"]
-keywords: ["Nacos","Docker","Ldap","权限认证","环境变量","ldap","身份认证"]
+tags: ["nacos-opensource","Nacos","Docker","Ldap","权限认证","环境变量","身份认证"]
+keywords: ["nacos-opensource","Nacos","Docker","Ldap","权限认证","环境变量","身份认证"]
 ---
 
 ## 用户问题 ： 
@@ -73,7 +73,12 @@ docker run -d --name nacos-server \
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13628)给我们反馈。

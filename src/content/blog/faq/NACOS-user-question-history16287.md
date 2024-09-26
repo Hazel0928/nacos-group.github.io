@@ -1,9 +1,11 @@
 ---
 id: "question-history-16287"
 title: "本地正常启动nacos2.2.3，服务器不能访问外网，docker-compose启动多个服务注册到本地n"
-date: "2024-07-25"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您提供的问题，结合已有知识，我们可以这样分析和解答：**问题分析：**您提到本地Nacos 2.2.3版本正常启动，服务器环境无外网访问能力，且使用docker-compose启动多个服务尝试注册到本地Nacos，但部分服务注册失败。结合Nacos开源项目相关知识，尤其是服务注册失败的场景，我们"
+tags: ["nacos-opensource","nacos223","本地启动","服务器","访问外网","失败","docker-compose"]
+keywords: ["nacos-opensource","nacos223","本地启动","服务器","访问外网","失败","docker-compose"]
 ---
 
 ## 用户问题 ： 
@@ -61,7 +63,12 @@ description: "根据您提供的问题，结合已有知识，我们可以这样
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16300)给我们反馈。

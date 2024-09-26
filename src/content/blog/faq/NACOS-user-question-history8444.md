@@ -1,11 +1,11 @@
 ---
 id: "question-history-8444"
 title: "各位大佬，想咨询下，怎么在 Nacos 2.3.0 通过helm方式部署设置开启授权认证功能？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要在 Nacos 2.3.0 版本中通过 Helm 方式部署并设置开启授权认证功能，可以遵循以下步骤操作：1. **准备鉴权相关配置参数**：   根据 Nacos 的官方文档和已知信息，开启鉴权需要配置以下几个关键参数：   - `nacos.core.auth.enabled=true`：启用鉴"
-tags: ["Nacos","2.3.0","helm","部署","开启","授权认证","功能"]
-keywords: ["Nacos","2.3.0","helm","部署","开启","授权认证","功能"]
+tags: ["nacos-opensource","Nacos","230","helm","部署","开启","授权认证"]
+keywords: ["nacos-opensource","Nacos","230","helm","部署","开启","授权认证"]
 ---
 
 ## 用户问题 ： 
@@ -67,7 +67,12 @@ keywords: ["Nacos","2.3.0","helm","部署","开启","授权认证","功能"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13662)给我们反馈。

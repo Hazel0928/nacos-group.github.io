@@ -1,11 +1,11 @@
 ---
 id: "question-history-11486"
 title: "nacos 推送失败"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "首先，根据提供的知识内容，我们可以分析Nacos推送失败问题的可能原因：1. **版本兼容性问题**：如果您使用的是Nacos1.X版本并且遇到UDP推送失败，这可能是因为UDP推送的不稳定性导致。Nacos2.X版本以后已废弃UDP推送，转而使用更稳定的TCP连接（gRPC双向流）。因此，升级到N"
-tags: ["推送失败"]
-keywords: ["推送失败"]
+tags: ["nacos","开源","推送","失败"]
+keywords: ["nacos","开源","推送","失败"]
 ---
 
 ## 用户问题 ： 
@@ -67,7 +67,12 @@ keywords: ["推送失败"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13773)给我们反馈。

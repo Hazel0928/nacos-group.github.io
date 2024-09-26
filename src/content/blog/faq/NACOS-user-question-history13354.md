@@ -1,11 +1,11 @@
 ---
 id: "question-history-13354"
 title: "加密nacos客户端连接用户密码"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos中，对于客户端连接Nacos服务端的用户密码加密，官方并没有直接提供一个统一的加密插件方案，因为Nacos客户端本身并不直接读取配置文件中的敏感信息，如用户名和密码。这些信息通常是用户通过应用程序的代码逻辑，以加密或未加密的形式加载到`Properties`对象中，随后传递给Nacos客"
-tags: ["加密","nacos客户端","连接","用户密码"]
-keywords: ["加密","nacos客户端","连接","用户密码"]
+tags: ["nacos-opensource","加密","客户端","连接","用户密码"]
+keywords: ["nacos-opensource","加密","客户端","连接","用户密码"]
 ---
 
 ## 用户问题 ： 
@@ -52,7 +52,12 @@ keywords: ["加密","nacos客户端","连接","用户密码"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13872)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-8215"
 title: "关于在生产环境中使用多namespace进行服务隔离的想法！现有环境的描述："
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在生产环境中使用多namespace进行服务隔离是一种有效且推荐的做法，这主要得益于Nacos提供的强大隔离机制。根据提供的知识，我们可以从以下几个方面来详细探讨：### 1. 服务隔离的原因与重要性服务隔离的目的是为了实现不同环境（如开发、测试、生产）、不同租户或不同业务逻辑间的数据与资源独立，避"
-tags: ["多namespace","服务隔离","生产环境"]
-keywords: ["多namespace","服务隔离","生产环境"]
+tags: ["nacos-opensource","多namespace","服务隔离","生产环境"]
+keywords: ["nacos-opensource","多namespace","服务隔离","生产环境"]
 ---
 
 ## 用户问题 ： 
@@ -63,7 +63,12 @@ Nacos利用命名空间（namespace）和分组（group）两个核心概念来�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13572)给我们反馈。

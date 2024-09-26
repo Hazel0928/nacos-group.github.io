@@ -1,11 +1,11 @@
 ---
 id: "question-history-11204"
 title: "nacos集群为什么建议用vip？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos集群部署中，建议使用VIP（Virtual IP）的原因主要在于提高系统的可用性和灵活性。VIP可以视为一个浮动的IP地址，它不绑定到特定的服务器上，而是由负载均衡器管理，自动在健康的集群节点之间切换。这样设计的好处体现在以下几个方面：1. **负载均衡**：通过VIP，客户端的请求可以"
-tags: ["集群","VIP"]
-keywords: ["集群","VIP"]
+tags: ["nacos","集群","VIP","建议","使用","原因","分析"]
+keywords: ["nacos","集群","VIP","建议","使用","原因","分析"]
 ---
 
 ## 用户问题 ： 
@@ -47,7 +47,12 @@ keywords: ["集群","VIP"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13743)给我们反馈。

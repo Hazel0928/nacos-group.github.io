@@ -1,11 +1,11 @@
 ---
 id: "question-history-8419"
 title: "有同学有nacos2.3.0部署的yaml吗。试了几个好像不太行。"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据你提到的需求，虽然提供的参考内容没有直接包含Nacos 2.3.0的完整部署yaml文件，但可以基于现有信息给出一些建议来帮助你正确配置Nacos 2.3.0的部署yaml。### 分析问题你希望获取适用于Nacos 2.3.0版本的部署yaml配置，用于确保服务能够顺利部署。尽管直接的yaml"
-tags: ["nacos2.3.0","部署","yaml"]
-keywords: ["nacos2.3.0","部署","yaml"]
+tags: ["nacos-opensource","nacos230","部署","yaml","配置文件","问题","请求"]
+keywords: ["nacos-opensource","nacos230","部署","yaml","配置文件","问题","请求"]
 ---
 
 ## 用户问题 ： 
@@ -88,7 +88,12 @@ services:
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13641)给我们反馈。

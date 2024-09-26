@@ -1,11 +1,11 @@
 ---
 id: "question-history-8226"
 title: "client version is1.4.2, server version is 2.1.0, Sing"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的信息，您遇到的问题是在Nacos客户端版本为1.4.2，服务器版本为2.1.0的环境下，单线程UDP推送存在30分钟的延迟。这一问题的根本原因在于Nacos从1.X版本开始引入UDP推送作为优化手段，旨在加速服务发现，但由于UDP协议本身的不可靠性（无连接、不保证消息到达），可能导致数据推"
-tags: ["client version 1.4.2","server version 2.1.0","udp push delay","30 minutes"]
-keywords: ["client version 1.4.2","server version 2.1.0","udp push delay","30 minutes"]
+tags: ["nacos","client","version","142","server","version","210"]
+keywords: ["nacos","client","version","142","server","version","210"]
 ---
 
 ## 用户问题 ： 
@@ -47,7 +47,12 @@ keywords: ["client version 1.4.2","server version 2.1.0","udp push delay","30 mi
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13579)给我们反馈。

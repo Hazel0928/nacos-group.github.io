@@ -1,11 +1,11 @@
 ---
 id: "question-history-8447"
 title: "请教一下,nacos 长轮训负载不均,从监控上,有的节点有一千多节点,有个节点只有两百节点,有办法手动触发"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "针对您提到的Nacos长轮询负载不均的问题，从监控发现有的节点承担了一千多个连接，而有的节点仅两百个，确实需要手动介入以实现更好的负载均衡。根据现有知识，这里提供一种解决方案：1. **使用VIP/SLB进行均衡**：   - 考虑在Nacos集群前端部署一个虚拟IP（VIP）或负载均衡器（SLB）"
-tags: ["nacos","长轮训","负载不均","监控","节点","一千多节点","两百节点","手动触发","负载均衡"]
-keywords: ["nacos","长轮训","负载不均","监控","节点","一千多节点","两百节点","手动触发","负载均衡"]
+tags: ["nacos","长轮训","负载不均","监控","节点","手动触发","负载均衡"]
+keywords: ["nacos","长轮训","负载不均","监控","节点","手动触发","负载均衡"]
 ---
 
 ## 用户问题 ： 
@@ -51,7 +51,12 @@ keywords: ["nacos","长轮训","负载不均","监控","节点","一千多节点
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13664)给我们反馈。

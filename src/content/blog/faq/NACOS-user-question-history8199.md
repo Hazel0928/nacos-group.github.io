@@ -1,11 +1,11 @@
 ---
 id: "question-history-8199"
 title: "Nacos默认密码，请问下使用内置数据库在单机情况下可以修改密码，但是集群下却不行"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos集群环境下，使用内置数据库（Derby）直接修改用户密码导致的问题，其根本原因在于Derby数据库作为嵌入式数据库，被设计为与Nacos集群紧密集成并通过Raft协议维护数据一致性。当在单机模式下，由于不存在分布式一致性的问题，直接修改Derby数据库中的用户密码是可行的，且修改效果立竿"
-tags: ["默认密码","修改密码","内置数据库","单机","集群"]
-keywords: ["默认密码","修改密码","内置数据库","单机","集群"]
+tags: ["nacos-opensource","默认密码","修改密码","内置数据库","单机","集群","不可行"]
+keywords: ["nacos-opensource","默认密码","修改密码","内置数据库","单机","集群","不可行"]
 ---
 
 ## 用户问题 ： 
@@ -47,7 +47,12 @@ keywords: ["默认密码","修改密码","内置数据库","单机","集群"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13558)给我们反馈。

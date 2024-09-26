@@ -1,9 +1,11 @@
 ---
 id: "question-history-14997"
 title: "core-auth.log文件出现load failed"
-date: "2024-06-05"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您提供的问题描述“nacos-opensource core-auth.log文件出现load failed”，这似乎是与Nacos在启动或运行过程中遇到的加载失败问题相关。虽然直接针对`core-auth.log`文件的具体错误信息未在给定的知识中详细说明，我们可以依据现有的知识内容进行一定的"
+tags: ["nacos","opensource","core-auth","log","load","failed"]
+keywords: ["nacos","opensource","core-auth","log","load","failed"]
 ---
 
 ## 用户问题 ： 
@@ -56,7 +58,12 @@ description: "根据您提供的问题描述“nacos-opensource core-auth.log文
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15050)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-8252"
 title: "使用客户端SDK的删除实例API之后，为什么客户端查询实例依然可以查询到？但是使用管理端页面下线之后，使用"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos中，客户端SDK删除实例与管理端页面下线实例存在本质区别，这直接导致了您观察到的现象。**原因分析：**1. **客户端SDK删除实例：**   客户端SDK调用删除实例API时，通常是指向OpenAPI。根据Nacos的设计，OpenAPI的主要目的是服务于应用程序，确保它们能获取到当"
-tags: ["客户端SDK","删除实例API","查询实例","管理端页面","下线","区别","客户端查询","查询不到"]
-keywords: ["客户端SDK","删除实例API","查询实例","管理端页面","下线","区别","客户端查询","查询不到"]
+tags: ["nacos-opensource","客户端SDK","删除实例API","查询实例","管理端页面","下线","区别"]
+keywords: ["nacos-opensource","客户端SDK","删除实例API","查询实例","管理端页面","下线","区别"]
 ---
 
 ## 用户问题 ： 
@@ -50,7 +50,12 @@ keywords: ["客户端SDK","删除实例API","查询实例","管理端页面","�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13602)给我们反馈。

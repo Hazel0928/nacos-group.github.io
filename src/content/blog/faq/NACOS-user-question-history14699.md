@@ -1,9 +1,11 @@
 ---
 id: "question-history-14699"
 title: "Nacos默认jwt密钥导致未授权访问这个问题该如何解决呢"
-date: "2024-07-01"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "关于您提出的问题“nacos-opensource Nacos默认jwt密钥导致未授权访问这个问题该如何解决呢”，根据我目前掌握的知识，虽然直接针对JWT密钥导致的未授权访问问题没有明确的解决方案说明，但我们可以依据相似情境下的处理逻辑来进行分析和提供可能的解决方向。### 分析问题原因Nacos在"
+tags: ["nacos","opensource","jwt","密钥","未授权","访问","解决方案"]
+keywords: ["nacos","opensource","jwt","密钥","未授权","访问","解决方案"]
 ---
 
 ## 用户问题 ： 
@@ -49,7 +51,12 @@ Nacos在早期版本中可能存在一些安全配置不够严格的情况，比
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16005)给我们反馈。

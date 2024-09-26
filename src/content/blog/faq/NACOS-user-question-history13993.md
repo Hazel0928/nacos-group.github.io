@@ -1,11 +1,11 @@
 ---
 id: "question-history-13993"
 title: "nacos是干什么用的"
-date: "2024-05-22"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos是阿里巴巴开源的一款服务发现、配置管理和服务管理平台，专为云原生应用设计。它的核心用途包括：1. **服务发现与健康检查**：Nacos允许应用程序自动发现和连接到服务提供者，同时通过健康检查机制监控服务实例的状态，确保只将请求路由到健康的实例上。2. **动态配置服务**：它提供了一个集"
-tags: ["nacos","用途"]
-keywords: ["nacos","用途"]
+tags: ["nacos","开源","用途","干什么用"]
+keywords: ["nacos","开源","用途","干什么用"]
 ---
 
 ## 用户问题 ： 
@@ -49,7 +49,12 @@ Nacos通过简化服务的发现与管理、配置的存储与分发，以及服
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14011)给我们反馈。

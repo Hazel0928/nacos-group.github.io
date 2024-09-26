@@ -1,9 +1,11 @@
 ---
 id: "question-history-15028"
 title: "spring cloud alibaba相同配置使用本地配置"
-date: "2024-06-05"
+date: "2024-09-26"
 category: "expertConsultation"
-description: "在使用Nacos作为Spring Cloud Alibaba的配置中心及服务注册发现组件时，若想让某些配置优先使用本地配置，而非Nacos服务器上的配置，可以按照以下步骤操作：### 原因分析（依托我了解的知识）:根据我了解的知识中提到的内容，Nacos 能够帮助我们实现配置的动态变更和服务的注册发"
+description: "在使用Nacos作为Spring Cloud Alibaba的配置中心及服务注册发现组件时，若想让某些配置优先使用本地配置，而非Nacos服务器上的配置，可以按照以下步骤操作：### 原因分析（依托知识）:根据知识中提到的内容，Nacos 能够帮助我们实现配置的动态变更和服务的注册发现。默认情况下，"
+tags: ["nacos","opensource","spring","cloud","alibaba","配置","本地"]
+keywords: ["nacos","opensource","spring","cloud","alibaba","配置","本地"]
 ---
 
 ## 用户问题 ： 
@@ -14,9 +16,9 @@ description: "在使用Nacos作为Spring Cloud Alibaba的配置中心及服务�
 
 在使用Nacos作为Spring Cloud Alibaba的配置中心及服务注册发现组件时，若想让某些配置优先使用本地配置，而非Nacos服务器上的配置，可以按照以下步骤操作：
 
-### 原因分析（依托我了解的知识）:
+### 原因分析（依托{{{知识}}}）:
 
-根据我了解的知识中提到的内容，Nacos 能够帮助我们实现配置的动态变更和服务的注册发现。默认情况下，Spring Cloud 应用会从Nacos Server获取配置信息。但是，在某些场景下，开发者可能希望特定的配置项能优先读取本地配置文件（如application.properties或application.yml），这尤其适用于开发环境或者需要覆盖某些默认设置的情况。
+根据{{{知识}}}中提到的内容，Nacos 能够帮助我们实现配置的动态变更和服务的注册发现。默认情况下，Spring Cloud 应用会从Nacos Server获取配置信息。但是，在某些场景下，开发者可能希望特定的配置项能优先读取本地配置文件（如application.properties或application.yml），这尤其适用于开发环境或者需要覆盖某些默认设置的情况。
 
 ### 具体步骤：
 
@@ -55,7 +57,12 @@ description: "在使用Nacos作为Spring Cloud Alibaba的配置中心及服务�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15119)给我们反馈。

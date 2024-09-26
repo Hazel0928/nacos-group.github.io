@@ -1,9 +1,11 @@
 ---
 id: "question-history-15849"
 title: "springboot nacos配置中心如何找到本项目的配置"
-date: "2024-06-25"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要找到Spring Boot项目中Nacos配置中心的配置，您可以遵循以下步骤进行操作，这些步骤基于提供的我了解的知识内容：### 分析问题原因在使用Nacos作为Spring Boot项目的配置中心时，通常遇到的问题在于如何正确地配置和接入Nacos，以实现从Nacos服务器动态获取项目的配置信息"
+tags: ["nacos","opensource","springboot","配置中心","项目配置","寻找","方法"]
+keywords: ["nacos","opensource","springboot","配置中心","项目配置","寻找","方法"]
 ---
 
 ## 用户问题 ： 
@@ -75,7 +77,12 @@ spring.cloud.nacos.config.group=DEFAULT_GROUP
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15865)给我们反馈。

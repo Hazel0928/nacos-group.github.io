@@ -1,9 +1,11 @@
 ---
 id: "question-history-15660"
 title: "v1.0 获取配置的OpenApi 获取完的配置 怎么使用yaml.load()转换"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要使用 `yaml.load()` 方法将 Nacos OpenAPI 获取到的配置转换为 Python 对象，你需要首先确保你的环境中已经安装了 `PyYAML` 这个库，因为 `yaml.load()` 函数是它提供的。如果还未安装，可以通过 `pip install pyyaml` 命令来安装"
+tags: ["nacos","opensource","v10","OpenApi","配置","yamlload","转换"]
+keywords: ["nacos","opensource","v10","OpenApi","配置","yamlload","转换"]
 ---
 
 ## 用户问题 ： 
@@ -84,7 +86,12 @@ config_dict = yaml.safe_load(config)  # 推荐使用 safe_load() 而不是 load(
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15712)给我们反馈。

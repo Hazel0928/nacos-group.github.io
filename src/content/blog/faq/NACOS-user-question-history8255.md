@@ -1,11 +1,11 @@
 ---
 id: "question-history-8255"
 title: "Actual scenario:During log monitoring after the netwo"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "基于提供的知识，我们可以分析您的情况如下：1. **问题背景理解**：您在进行网络入侵日志监控后，发现可以获取到访问时携带的access_token及其它信息，并进一步获取配置中心下配置信息的账户密码。2. **原因分析**：根据提及的错误信息，特别是在Nacos开源项目环境下，如果遇到与密钥长度或"
-tags: ["log monitoring","network intrusion","access_token","configuration center","account password"]
-keywords: ["log monitoring","network intrusion","access_token","configuration center","account password"]
+tags: ["nacos-opensource","log","monitoring","network","intrusion","access_token","configuration"]
+keywords: ["nacos-opensource","log","monitoring","network","intrusion","access_token","configuration"]
 ---
 
 ## 用户问题 ： 
@@ -49,7 +49,12 @@ keywords: ["log monitoring","network intrusion","access_token","configuration ce
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13605)给我们反馈。

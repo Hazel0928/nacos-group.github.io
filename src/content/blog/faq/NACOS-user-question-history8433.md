@@ -1,11 +1,11 @@
 ---
 id: "question-history-8433"
 title: "单机模式 自建MySQL数据库  需要自己创建数据库和表么？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在使用Nacos单机模式搭配自建MySQL数据库时，您确实需要自己预先创建数据库和表。根据Nacos开源项目的指导信息，这里为您梳理具体操作步骤：1. **准备MySQL环境**：确保您的环境中已安装并运行了MySQL服务器，且版本兼容性需满足Nacos的要求，即支持MySQL5.6及以上版本。2."
-tags: ["单机模式","自建MySQL数据库","创建数据库","创建表"]
-keywords: ["单机模式","自建MySQL数据库","创建数据库","创建表"]
+tags: ["nacos-opensource","单机模式","自建MySQL数据库","创建数据库","创建表"]
+keywords: ["nacos-opensource","单机模式","自建MySQL数据库","创建数据库","创建表"]
 ---
 
 ## 用户问题 ： 
@@ -65,7 +65,12 @@ keywords: ["单机模式","自建MySQL数据库","创建数据库","创建表"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13654)给我们反馈。

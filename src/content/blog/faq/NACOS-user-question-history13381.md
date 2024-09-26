@@ -1,11 +1,11 @@
 ---
 id: "question-history-13381"
 title: "vm与k8s混合部署情况下，如何使用nacos来解决服务发现的问题,k8s侧部署的应用，注册到nacos上"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos开源项目(vm与k8s混合部署)的场景下，解决服务发现的问题，特别是针对K8s部署的应用注册到Nacos上的识别问题，关键在于理解Kubernetes环境的特殊性以及如何适配Nacos的服务注册机制。### 分析问题原因1. **K8s环境特性**：Kubernetes环境中，Pod I"
-tags: ["vm","k8s","混合部署","服务发现","nacos","k8s","应用","注册","podip"]
-keywords: ["vm","k8s","混合部署","服务发现","nacos","k8s","应用","注册","podip"]
+tags: ["nacos-opensource","k8s","混合部署","服务发现","nacos","应用","注册"]
+keywords: ["nacos-opensource","k8s","混合部署","服务发现","nacos","应用","注册"]
 ---
 
 ## 用户问题 ： 
@@ -59,7 +59,12 @@ keywords: ["vm","k8s","混合部署","服务发现","nacos","k8s","应用","注�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13876)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-8278"
 title: "nacos server频繁上下线正常服务。在客户端心跳正常的情况下，为何nacos-server日志中持"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的知识内容，我们可以分析并尝试解答您遇到的问题。**问题分析：**1. **心跳机制与日志打印：** 客户端心跳正常表明客户端与Nacos Server之间的连接是活跃的，理论上不应该频繁触发服务上下线的日志。然而，Nacos Server日志中持续打印客户端下线又上线的日志，这可能与服务实"
-tags: ["服务上下线","心跳正常","日志打印","客户端下线又上线","1G日志","服务发现","影响"]
-keywords: ["服务上下线","心跳正常","日志打印","客户端下线又上线","1G日志","服务发现","影响"]
+tags: ["nacos","server","客户端下线又上线","心跳正常","日志打印","1G多","服务发现"]
+keywords: ["nacos","server","客户端下线又上线","心跳正常","日志打印","1G多","服务发现"]
 ---
 
 ## 用户问题 ： 
@@ -63,7 +63,12 @@ keywords: ["服务上下线","心跳正常","日志打印","客户端下线又�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13624)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-15654"
 title: "对于nacos的客户端，username，password和nacos的配置nacos.core.auth"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据已有的知识，我们可以分析如下：1. **理解Nacos客户端认证**: 在Nacos中，客户端连接到服务器时可能需要进行身份验证。这通常涉及到用户名（username）和密码（password），它们是基本的认证凭证，用于确认客户端是否有权访问Nacos服务。2. **Nacos系统配置与认证插"
+tags: ["nacos","opensource","客户端","username","password","配置","nacoscoreauthpluginnacostokensecretkey"]
+keywords: ["nacos","opensource","客户端","username","password","配置","nacoscoreauthpluginnacostokensecretkey"]
 ---
 
 ## 用户问题 ： 
@@ -41,7 +43,12 @@ description: "根据已有的知识，我们可以分析如下：1. **理解Naco
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15706)给我们反馈。

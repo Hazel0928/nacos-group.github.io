@@ -1,9 +1,11 @@
 ---
 id: "question-history-16259"
 title: "nacos开启认证后，发现不了服务了怎么处理？"
-date: "2024-07-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您提供的信息，当Nacos开启认证后发现不了服务，这可能是由于权限配置不当导致的。Nacos支持细粒度的权限控制，包括对服务注册与发现等操作的权限分配。根据已有知识，这里有几个步骤和考虑方向来解决这个问题：### 分析原因1. **权限设置不正确**：可能为服务注册相关的命名空间或服务配置了只读"
+tags: ["nacos","开源","认证","服务","发现","处理","故障"]
+keywords: ["nacos","开源","认证","服务","发现","处理","故障"]
 ---
 
 ## 用户问题 ： 
@@ -68,7 +70,12 @@ description: "根据您提供的信息，当Nacos开启认证后发现不了服�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16267)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-11822"
 title: "除了nacos还有哪些配置中心"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "除了Nacos，还有多种配置中心可以作为选择，根据不同的需求和场景，这些配置中心各有优势。以下是其他几个主流的配置中心：1. **Etcd**：Etcd是一个分布式键值存储系统，常用于共享配置和服务发现。尽管其可持续性存在疑问，但依然是某些场景下的选择之一。2. **Apollo（阿波罗）**：由携"
-tags: ["nacos","配置中心"]
-keywords: ["nacos","配置中心"]
+tags: ["nacos","开源","配置中心","替代品","比较","选择","使用"]
+keywords: ["nacos","开源","配置中心","替代品","比较","选择","使用"]
 ---
 
 ## 用户问题 ： 
@@ -45,7 +45,12 @@ keywords: ["nacos","配置中心"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13809)给我们反馈。

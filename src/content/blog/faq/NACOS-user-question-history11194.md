@@ -1,11 +1,11 @@
 ---
 id: "question-history-11194"
 title: "nacos 能否支持达梦数据库？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos确实支持达梦数据库。这一支持是从Nacos 2.2版本开始的，因此，如果您想要在Nacos中使用达梦数据库，您需要确保运行的是Nacos 2.2或更高版本。为了帮助您配置Nacos以使用达梦数据库，以下是基于提供的知识内容整理的具体步骤：1. **检查插件是否存在**：   首先，访问[N"
-tags: ["达梦数据库"]
-keywords: ["达梦数据库"]
+tags: ["nacos","开源","支持","达梦","数据库"]
+keywords: ["nacos","开源","支持","达梦","数据库"]
 ---
 
 ## 用户问题 ： 
@@ -65,7 +65,12 @@ Nacos确实支持达梦数据库。这一支持是从Nacos 2.2版本开始的，
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13733)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-8257"
 title: "在只用OpenFeign远程调用时，怎么样可以忽略@FeignClient中填写的服务名称与已经注册到na"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在使用OpenFeign进行远程调用时，若希望忽略@FeignClient注解中填写的服务名称与Nacos服务注册时的名称大小写不匹配问题，虽然直接通过Nacos或Feign的配置来解决这一特定大小写敏感性问题没有直接的官方支持，但我们可以通过一些间接的方式来绕过这个问题。以下是基于当前知识的分析与"
-tags: ["OpenFeign","远程调用","忽略","FeignClient","服务名称","大小写问题","已注册","nacos服务"]
-keywords: ["OpenFeign","远程调用","忽略","FeignClient","服务名称","大小写问题","已注册","nacos服务"]
+tags: ["nacos-opensource","OpenFeign","远程调用","忽略","FeignClient","服务名称","大小写问题"]
+keywords: ["nacos-opensource","OpenFeign","远程调用","忽略","FeignClient","服务名称","大小写问题"]
 ---
 
 ## 用户问题 ： 
@@ -56,7 +56,12 @@ keywords: ["OpenFeign","远程调用","忽略","FeignClient","服务名称","大
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13606)给我们反馈。

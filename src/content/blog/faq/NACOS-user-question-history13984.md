@@ -1,11 +1,11 @@
 ---
 id: "question-history-13984"
 title: "nacos 配置样例"
-date: "2024-05-22"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要了解Nacos的配置样例，我们可以从几个维度来探讨，包括Nacos与Spring框架、Spring Boot、以及Spring Cloud的适配，同时也会简要提及Nacos的配置日志管理。### Nacos与Spring框架适配样例Nacos为Spring生态提供了良好的支持。对于基本的Sprin"
-tags: ["nacos","配置样例"]
-keywords: ["nacos","配置样例"]
+tags: ["nacos","opensource","配置","样例"]
+keywords: ["nacos","opensource","配置","样例"]
 ---
 
 ## 用户问题 ： 
@@ -55,7 +55,12 @@ server.tomcat.accesslog.pattern=%{yyyyMMddHHmmssSSS}t|%a|%h|%H|%r|%{Referer}i|%s
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13988)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-14693"
 title: "如何本地不能访问到server端的9848端口，启动会有什么效果"
-date: "2024-05-29"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "当在本地无法访问到Nacos Server端的9848端口时，这可能是由于以下几个原因造成的：1. **防火墙限制**：本地或服务器的防火墙可能阻止了9848端口的出入流量。2. **端口未正确开放**：确保Nacos Server配置中已正确设置了`server.port`，并且gRPC端口（默认"
-tags: ["本地","访问","9848端口","启动","效果"]
-keywords: ["本地","访问","9848端口","启动","效果"]
+tags: ["nacos-opensource","本地","访问","9848端口","启动","效果"]
+keywords: ["nacos-opensource","本地","访问","9848端口","启动","效果"]
 ---
 
 ## 用户问题 ： 
@@ -57,7 +57,12 @@ keywords: ["本地","访问","9848端口","启动","效果"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14714)给我们反馈。

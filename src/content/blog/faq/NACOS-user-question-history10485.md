@@ -1,11 +1,11 @@
 ---
 id: "question-history-10485"
 title: "#Nacos的配置管理如何工作？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos的配置管理主要通过以下几个步骤工作：1. **初始化配置环境**：   - 在Spring Cloud应用中，首先通过Maven或Gradle添加`spring-cloud-starter-alibaba-nacos-config`依赖，确保与Spring Boot版本兼容。具体版本对应关"
-tags: ["Nacos","配置管理","工作原理"]
-keywords: ["Nacos","配置管理","工作原理"]
+tags: ["Nacos","配置管理","工作原理","开源","详情","深入了解","实现方式"]
+keywords: ["Nacos","配置管理","工作原理","开源","详情","深入了解","实现方式"]
 ---
 
 ## 用户问题 ： 
@@ -54,7 +54,12 @@ Nacos的配置管理主要通过以下几个步骤工作：
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13682)给我们反馈。

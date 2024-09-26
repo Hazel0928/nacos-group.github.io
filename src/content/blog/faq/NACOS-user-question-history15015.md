@@ -1,9 +1,11 @@
 ---
 id: "question-history-15015"
 title: "Nacos支持蓝绿发布吗？"
-date: "2024-06-05"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos支持蓝绿发布。虽然直接的“蓝绿发布”概念在提供的知识中未被明确提及，但Nacos的特性为实现蓝绿发布提供了基础。蓝绿发布是一种部署策略，通过保持两个环境（通常是生产环境和预发布环境，类比为“蓝”和“绿”）的同构性，实现平滑的版本切换。Nacos如何支持蓝绿发布，可以从以下几个方面理解：1."
+tags: ["Nacos","开源","蓝绿发布","支持","吗"]
+keywords: ["Nacos","开源","蓝绿发布","支持","吗"]
 ---
 
 ## 用户问题 ： 
@@ -51,7 +53,12 @@ Nacos支持蓝绿发布。虽然直接的“蓝绿发布”概念在提供的知
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15068)给我们反馈。

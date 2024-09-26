@@ -1,11 +1,11 @@
 ---
 id: "question-history-11437"
 title: "nacos和consul有什么区别"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos与Consul都是流行的微服务基础设施组件，它们在服务发现、配置管理方面有着相似之处，但也存在一些关键差异：1. **背景与生态**：   - Nacos源自阿里巴巴，专为云原生环境设计，与Spring Cloud Alibaba体系紧密集成，非常适合使用Spring Boot/Sprin"
-tags: ["consul","区别"]
-keywords: ["consul","区别"]
+tags: ["nacos","consul","区别","开源","服务发现","配置管理","注册中心"]
+keywords: ["nacos","consul","区别","开源","服务发现","配置管理","注册中心"]
 ---
 
 ## 用户问题 ： 
@@ -52,7 +52,12 @@ Nacos与Consul都是流行的微服务基础设施组件，它们在服务发现
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13758)给我们反馈。

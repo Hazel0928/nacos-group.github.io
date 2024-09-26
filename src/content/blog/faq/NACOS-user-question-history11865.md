@@ -1,11 +1,11 @@
 ---
 id: "question-history-11865"
 title: "nacos 介绍一下nacos配置中心支持的功能"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos 配置中心主要支持以下功能：1. **动态配置服务**：Nacos 允许用户在中心化的位置管理应用的配置，实现配置的外部化和动态化管理。应用可以在运行时从Nacos服务器动态拉取配置，无需重启即可使新配置生效。当配置发生变化时，Nacos会自动推送配置更新到各个客户端应用，确保应用配置的实"
-tags: ["nacos-opensource","配置中心","功能"]
-keywords: ["nacos-opensource","配置中心","功能"]
+tags: ["nacos","nacos-opensource","配置中心","功能","介绍","支持"]
+keywords: ["nacos","nacos-opensource","配置中心","功能","介绍","支持"]
 ---
 
 ## 用户问题 ： 
@@ -51,7 +51,12 @@ Nacos 配置中心主要支持以下功能：
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13831)给我们反馈。

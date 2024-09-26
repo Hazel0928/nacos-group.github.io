@@ -1,11 +1,11 @@
 ---
 id: "question-history-11838"
 title: "nacos配置mysql数据库"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要配置Nacos使用MySQL数据库，请按照以下步骤操作：1. **确认Nacos版本**：确保你的Nacos版本是2.2或更高，因为从2.2版本开始，Nacos才开始支持除MySQL和Derby之外的更多数据库类型通过插件的方式。如果版本低于2.2，请先升级Nacos。2. **下载与配置MySQ"
-tags: ["nacos","配置","mysql","数据库"]
-keywords: ["nacos","配置","mysql","数据库"]
+tags: ["nacos","opensource","配置","mysql","数据库"]
+keywords: ["nacos","opensource","配置","mysql","数据库"]
 ---
 
 ## 用户问题 ： 
@@ -61,7 +61,12 @@ keywords: ["nacos","配置","mysql","数据库"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13817)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-8261"
 title: "本地环境配置的文件，有nacos的账号和密码加密的，有什么方案能在spring启动的时候就加个解密操作，导"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
-description: "首先，从问题描述中了解到，您希望在Spring启动时对本地环境配置中Nacos的账号和密码进行解密操作，以避免因密文直接配置导致Nacos客户端启动报错的情况。基于提供的知识内容，我们可以采取以下步骤解决这一问题：### 分析问题原因1. **敏感信息加密需求**：出于安全考虑，Nacos客户端连接"
-tags: ["本地环境配置","账号密码加密","解密操作","spring启动","密文","nacos客户端","报错","方案"]
-keywords: ["本地环境配置","账号密码加密","解密操作","spring启动","密文","nacos客户端","报错","方案"]
+description: "首先，我们分析问题的原因。您提到在本地环境配置的文件中，Nacos的账号和密码是以加密形式存储的，导致Spring应用在启动时尝试连接Nacos服务器时因无法直接识别密文而报错。这是因为Spring Boot应用在初始化Nacos客户端时，需要明文的用户名和密码来建立连接。根据提供的知识内容，我们可"
+tags: ["nacos","开源","本地环境","配置文件","账号","密码","解密"]
+keywords: ["nacos","开源","本地环境","配置文件","账号","密码","解密"]
 ---
 
 ## 用户问题 ： 
@@ -14,62 +14,73 @@ keywords: ["本地环境配置","账号密码加密","解密操作","spring启�
 ---------------
 ## 专家官方解答 ：
 
-首先，从问题描述中了解到，您希望在Spring启动时对本地环境配置中Nacos的账号和密码进行解密操作，以避免因密文直接配置导致Nacos客户端启动报错的情况。基于提供的知识内容，我们可以采取以下步骤解决这一问题：
+首先，我们分析问题的原因。您提到在本地环境配置的文件中，Nacos的账号和密码是以加密形式存储的，导致Spring应用在启动时尝试连接Nacos服务器时因无法直接识别密文而报错。这是因为Spring Boot应用在初始化Nacos客户端时，需要明文的用户名和密码来建立连接。
 
-### 分析问题原因
-
-1. **敏感信息加密需求**：出于安全考虑，Nacos客户端连接Nacos服务器时使用的账号密码等敏感信息需加密存储。
-2. **Spring Boot集成Nacos**：在Spring Boot应用中，通常通过配置文件(`application.properties`或`application.yml`)设置Nacos客户端参数，包括用户名和密码。
-3. **解密时机**：为确保Nacos客户端能正确使用，需在Spring启动初期，即加载配置文件并初始化Nacos客户端前完成解密操作。
+根据提供的知识内容，我们可以采取以下步骤来实现在Spring启动时对Nacos客户端配置的账号密码进行解密操作：
 
 ### 解决方案步骤
 
-#### 步骤1：选择加密方式
-确定加密算法，例如AES。确保加密算法与您在配置文件中存储的密文相匹配。
+#### 1. 选择合适的加密解密库
+确保您的项目中已经引入了一个适合的加密解密库，用于对配置文件中的密文进行解密。常见的加密库如Java的Bouncy Castle或者使用Spring Security提供的加密工具类。
 
-#### 步骤2：编写解密逻辑
-在Spring Boot应用中，创建一个配置类或Bean，用于解密Nacos客户端配置中的账号密码。
+#### 2. 自定义PropertySourceFactory
+创建一个自定义的`PropertySourceFactory`，该类将在Spring加载配置文件时被调用，允许我们在加载配置值前对其进行解密处理。
 
 ```java
-@Configuration
-public class NacosConfigDecryption {
+import org.springframework.boot.env.PropertySourceLoader;
+import org.springframework.core.env.PropertySource;
+import org.springframework.core.io.Resource;
 
-    @Value("${nacos.config.username}") // 假设密文存储的key
-    private String encryptedUsername;
+import java.io.IOException;
+import java.util.List;
 
-    @Value("${nacos.config.password}") // 假设密文存储的key
-    private String encryptedPassword;
+public class DecryptPropertySourceFactory implements PropertySourceLoader {
 
-    @Bean
-    public NacosConfigProperties nacosConfigProperties() {
-        // 实例化NacosConfigProperties或直接构建NacosProperties
-        NacosConfigProperties properties = new NacosConfigProperties();
-        // 使用您选择的加密库解密
-        String username = decrypt(encryptedUsername);
-        String password = decrypt(encryptedPassword);
-        properties.setServerAddr("localhost:8848"); // 其他必要配置
-        properties.setUsername(username);
-        properties.setPassword(password);
-        return properties;
+    @Override
+    public List<PropertySource<?>> load(String name, Resource resource) throws IOException {
+        // 在这里实现读取资源并解密配置的逻辑
+        // 1. 使用标准的PropertySourceLoader读取原始配置
+        // 2. 对特定的密文属性进行解密
+        // 3. 返回解密后的PropertySource对象
     }
 
-    private String decrypt(String encryptedText) {
-        // 实现您的解密逻辑，这里仅为示例
-        // 请替换为正确的解密代码，比如AES解密
-        return ""; // 解密后的明文
+    // 确定支持的文件类型，例如yaml或properties
+    @Override
+    public String[] getFileExtensions() {
+        return new String[]{"yml", "yaml", "properties"};
     }
 }
 ```
 
-#### 步骤3：配置Spring Boot使用解密后的Nacos配置
-确保Spring Boot应用通过上面创建的Bean(`nacosConfigProperties`)来获取Nacos配置，而不是直接从配置文件读取。
+#### 3. 配置Spring Boot使用自定义的PropertySourceFactory
+在`application.yml`或`application.properties`中指定使用自定义的`PropertySourceFactory`来加载配置。
 
-#### 步骤4：测试与验证
-启动Spring Boot应用，检查Nacos客户端是否能成功连接到Nacos服务器，且无任何因解密错误导致的异常。
+```yaml
+# application.yml
+spring:
+  config:
+    use-decoded-property-sources: true
+  properties:
+    loader:
+      factory-class-name: com.example.DecryptPropertySourceFactory
+```
+或
+```properties
+# application.properties
+spring.config.use-decoded-property-sources=true
+spring.properties.loader.factory-class-name=com.example.DecryptPropertySourceFactory
+```
+
+#### 4. 实现解密逻辑
+在自定义的`PropertySourceFactory`中实现具体的解密逻辑，特别是对于`nacos.username`和`nacos.password`这类敏感属性，使用之前选定的加密库进行解密。
+
+#### 5. 测试与验证
+完成以上步骤后，重新启动Spring Boot应用，此时应用在启动阶段应能成功解密Nacos客户端配置的账号密码，进而顺利连接到Nacos服务器。
 
 ### 解释
+通过上述步骤，我们利用Spring Boot提供的扩展点`PropertySourceFactory`，在应用启动时即对配置文件中的敏感信息进行了解密处理，确保了Nacos客户端能够正确读取并使用这些配置信息。这种方式不仅提高了安全性，同时也保持了配置的灵活性和可维护性。
 
-上述步骤首先定义了解密逻辑，并通过Spring的依赖注入机制，在应用启动时自动执行解密操作，将加密的账号密码转换为明文，从而确保Nacos客户端能够使用正确的凭证初始化并成功连接至Nacos服务器。这样的设计既保证了配置的安全性，又确保了应用的正常启动流程。
+请注意，上述示例代码仅为逻辑框架，具体实现细节（如密钥管理、异常处理等）需要根据实际项目需求进一步完善。
 
 
 <font color="#949494">---------------</font> 
@@ -80,8 +91,6 @@ public class NacosConfigDecryption {
 * 专家经验：Nacos 配置加密 
  
  * 专家经验：nacos用户密码设置 
- 
- * 专家经验：无法在nacos/conf下找到nacos-mysql.sql文件 
 
 
  <font color="#949494">---------------</font> 
@@ -90,7 +99,12 @@ public class NacosConfigDecryption {
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
-如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13610)给我们反馈。
+如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16625)给我们反馈。

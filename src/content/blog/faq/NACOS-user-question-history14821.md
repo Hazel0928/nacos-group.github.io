@@ -1,9 +1,11 @@
 ---
 id: "question-history-14821"
 title: "springboot 集成nacos 服务日志报out of date data received, ol"
-date: "2024-05-31"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据已有的知识，该报错`out of date data received, old-t:1717063808644,new-t:1717063720455`表明您的Spring Boot应用在集成Nacos作为服务发现与配置管理时，收到了过时的数据，这可能是由于客户端和服务端的时间不一致或者网络延"
+tags: ["nacos","opensource","springboot","集成","nacos","服务","日志"]
+keywords: ["nacos","opensource","springboot","集成","nacos","服务","日志"]
 ---
 
 ## 用户问题 ： 
@@ -57,7 +59,12 @@ description: "根据已有的知识，该报错`out of date data received, old-t
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14826)给我们反馈。

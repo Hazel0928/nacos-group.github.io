@@ -1,9 +1,11 @@
 ---
 id: "question-history-15019"
 title: "Nacos如何异地多活，异地容灾"
-date: "2024-06-05"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "关于您的问题「nacos-opensource Nacos如何异地多活，异地容灾」，根据提供的知识内容，以下是详细的分析与解答：### 原因分析Nacos为了实现异地多活与异地容灾，理论上可以通过将不同地域的Nacos集群组合成一个大集群来实现数据共享与高可用。但是，这种方法并不被推荐，主要原因在于"
+tags: ["Nacos","异地多活","容灾","分布式","系统架构","高可用","性能优化"]
+keywords: ["Nacos","异地多活","容灾","分布式","系统架构","高可用","性能优化"]
 ---
 
 ## 用户问题 ： 
@@ -52,7 +54,12 @@ Nacos为了实现异地多活与异地容灾，理论上可以通过将不同地
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15072)给我们反馈。

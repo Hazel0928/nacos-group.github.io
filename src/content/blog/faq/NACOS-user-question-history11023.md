@@ -1,11 +1,11 @@
 ---
 id: "question-history-11023"
 title: "各位大佬，我想请教一个问题，我本地启动服务向云端nacos服务进行注册成功，但是我将本地服务打包，也部署到"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您的描述，您遇到了本地服务能够成功注册到云端Nacos服务，但将该服务打包并部署到与Nacos相同服务器下后，服务却无法在Nacos服务列表中查到的问题。根据提供的知识内容，我们可以按以下步骤分析并解决问题：### 分析问题原因：1. **Nacos Client版本问题**：检查您使用的nac"
-tags: ["注册成功","服务打包","部署","同服务器下","无法查到"]
-keywords: ["注册成功","服务打包","部署","同服务器下","无法查到"]
+tags: ["nacos","本地服务","云端注册成功","打包","部署","同服务器下","无法查到"]
+keywords: ["nacos","本地服务","云端注册成功","打包","部署","同服务器下","无法查到"]
 ---
 
 ## 用户问题 ： 
@@ -68,7 +68,12 @@ keywords: ["注册成功","服务打包","部署","同服务器下","无法查�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13712)给我们反馈。

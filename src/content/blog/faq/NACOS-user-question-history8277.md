@@ -1,11 +1,11 @@
 ---
 id: "question-history-8277"
 title: "we use different Nacos for test, pressure test, devel"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "面对您提出的关于在不同Nacos环境及同一环境不同Group间进行配置比较的需求，虽然直接的解决方案未在提供的参考内容中明确给出，但我可以根据Nacos的功能特性为您提供一些建议性的思路：### 分析问题的原因1. **多环境配置分散**：您提到在测试、压力测试、开发环境中使用了不同的Nacos实例"
-tags: ["Nacos","pressure test","development environment","nacos namespace","microservices","canary environment","configuration","different Group","comparison","output"]
-keywords: ["Nacos","pressure test","development environment","nacos namespace","microservices","canary environment","configuration","different Group","comparison","output"]
+tags: ["nacos-opensource","Nacos","pressure","test","development","environment","nacos"]
+keywords: ["nacos-opensource","Nacos","pressure","test","development","environment","nacos"]
 ---
 
 ## 用户问题 ： 
@@ -62,7 +62,12 @@ keywords: ["Nacos","pressure test","development environment","nacos namespace","
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13623)给我们反馈。

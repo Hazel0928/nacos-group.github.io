@@ -1,11 +1,11 @@
 ---
 id: "question-history-8193"
 title: "nacos不支持跨namespace获取数据"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos确实不支持跨namespace直接获取数据。这是由于命名空间（namespace）设计初衷是为了实现资源的强制隔离，比如区分不同的环境（开发、测试、生产）或不同租户之间的数据。因此，在一个命名空间中无法直接查看或操作另一个命名空间的数据。### 原因分析- **命名空间的隔离性**：Nac"
-tags: ["nacos","不支持","跨namespace","获取数据"]
-keywords: ["nacos","不支持","跨namespace","获取数据"]
+tags: ["nacos","opensource","不支持","跨namespace","获取数据"]
+keywords: ["nacos","opensource","不支持","跨namespace","获取数据"]
 ---
 
 ## 用户问题 ： 
@@ -43,7 +43,12 @@ Nacos确实不支持跨namespace直接获取数据。这是由于命名空间（
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13552)给我们反馈。

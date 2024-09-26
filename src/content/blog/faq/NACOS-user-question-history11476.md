@@ -1,11 +1,11 @@
 ---
 id: "question-history-11476"
 title: "nacos拿不到配置"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在遇到Nacos拿不到配置的问题时，我们可以按照以下步骤进行排查和解决：1. **检查网络连接与配置信息**：   - 首先确认Nacos客户端与服务器之间的网络是否畅通无阻，检查日志中是否存在连接失败或超时的错误信息。同时，验证Nacos服务器的地址、端口以及命名空间、group、dataId等配"
-tags: ["nacos","配置"]
-keywords: ["nacos","配置"]
+tags: ["nacos","开源","问题","配置","获取","失败","解决方案"]
+keywords: ["nacos","开源","问题","配置","获取","失败","解决方案"]
 ---
 
 ## 用户问题 ： 
@@ -48,7 +48,12 @@ keywords: ["nacos","配置"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13763)给我们反馈。

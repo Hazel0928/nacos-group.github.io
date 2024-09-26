@@ -1,11 +1,11 @@
 ---
 id: "question-history-8263"
 title: "我期望跨数据中心部署nacos集群，每个中心使用不同的mysql，防止某一个中心挂了可以无缝切换到另一个中"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您的描述，您在尝试跨数据中心部署Nacos集群时遇到了配置中心无法同步的问题，而注册中心功能正常。这个问题可能与以下几个因素相关：1. **网络通信问题**：确保不同数据中心之间的Nacos节点网络连通性良好，包括配置中心的同步需要的网络端口未被防火墙阻拦，且数据中心间的延迟在可接受范围内。2."
-tags: ["跨数据中心部署","nacos集群","mysql","无缝切换","derby方式部署","配置中心无法同步","创建配置文件","同步信息"]
-keywords: ["跨数据中心部署","nacos集群","mysql","无缝切换","derby方式部署","配置中心无法同步","创建配置文件","同步信息"]
+tags: ["nacos-opensource","跨数据中心部署","nacos集群","mysql","无缝切换","derby方式部署","配置中心无法同步"]
+keywords: ["nacos-opensource","跨数据中心部署","nacos集群","mysql","无缝切换","derby方式部署","配置中心无法同步"]
 ---
 
 ## 用户问题 ： 
@@ -61,7 +61,12 @@ keywords: ["跨数据中心部署","nacos集群","mysql","无缝切换","derby�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13612)给我们反馈。

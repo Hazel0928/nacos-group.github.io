@@ -1,9 +1,11 @@
 ---
 id: "question-history-15411"
 title: "nacos服务注册阻塞"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "针对您提出的问题“nacos-opensource nacos服务注册阻塞”，我将依据现有知识进行分析并尝试给出解决方案。**分析问题原因：**1. **版本问题与DNS解析失败：** 首先考虑是否因使用了存在BUG的Nacos客户端版本（如1.4.1）导致。该版本中存在当遇到DNS解析失败时，心跳"
+tags: ["nacos","开源","服务注册","阻塞"]
+keywords: ["nacos","开源","服务注册","阻塞"]
 ---
 
 ## 用户问题 ： 
@@ -55,7 +57,12 @@ description: "针对您提出的问题“nacos-opensource nacos服务注册阻�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15481)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-15423"
 title: "nacos_exception_total{name=‘leaderSendBeatFailed’}==2"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您提供的信息，`nacos_exception_totalname='leaderSendBeatFailed'==2` 表示Nacos命名空间的领导者发送心跳失败的异常次数为2。这意味着Nacos集群中可能存在主节点（领导者）与其它节点之间的心跳同步问题，这可能影响到服务的正常发现与注册功能。"
+tags: ["nacos","opensource","exception","leaderSendBeatFailed","total","BOT"]
+keywords: ["nacos","opensource","exception","leaderSendBeatFailed","total","BOT"]
 ---
 
 ## 用户问题 ： 
@@ -56,7 +58,12 @@ description: "根据您提供的信息，`nacos_exception_totalname='leaderSendB
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15493)给我们反馈。

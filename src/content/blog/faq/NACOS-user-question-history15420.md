@@ -1,9 +1,11 @@
 ---
 id: "question-history-15420"
 title: "nacos的实例在数据库哪个表里面？还有如果通过api对无效实例进行删除，如何进行实现？版本为1.4.3"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos中，实例的相关信息并不直接存储在数据库的某个特定表中，而是根据服务的类型（持久化或临时）采用不同的存储策略。对于临时服务，它们主要依赖于客户端的心跳和Distro协议来管理实例状态，这类信息更多地保存在内存中并通过Nacos集群的各节点间同步。而对于持久化服务，虽然涉及到了Raft协议和"
+tags: ["nacos","opensource","实例","数据库","表","api","删除"]
+keywords: ["nacos","opensource","实例","数据库","表","api","删除"]
 ---
 
 ## 用户问题 ： 
@@ -55,7 +57,12 @@ description: "在Nacos中，实例的相关信息并不直接存储在数据库�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15490)给我们反馈。

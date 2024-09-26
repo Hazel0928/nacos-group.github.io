@@ -1,9 +1,11 @@
 ---
 id: "question-history-16408"
 title: "nacos高可用集群怎么部署并接入微服务"
-date: "2024-08-01"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要部署并接入微服务至Nacos高可用集群，您可以遵循以下步骤操作，这些步骤结合了提供的知识内容：### 1. 理解Nacos部署基础- **部署环境选择**：Nacos Server是一个Java应用，可以部署在物理机、虚拟机、容器环境，甚至是阿里云的MSE服务上。考虑到高可用需求，我们应选择能够支"
+tags: ["nacos","高可用","集群","部署","接入","微服务","开源"]
+keywords: ["nacos","高可用","集群","部署","接入","微服务","开源"]
 ---
 
 ## 用户问题 ： 
@@ -77,7 +79,12 @@ spring:
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16421)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-15427"
 title: "nacos 控制台配置权限后， 需要获取配置需要配置权限密钥吗？"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的知识内容，关于“nacos-opensource nacos 控制台配置权限后，需要获取配置需要配置权限密钥吗？”这一问题，我们可以这样分析与解答：1. **问题背景理解**：   - Nacos 提供了配置管理功能，包括发布、修改、查询配置以及配置的灰度发布等，这些操作在控制台上均可进行"
+tags: ["nacos","开源","控制台","配置","权限","密钥","获取"]
+keywords: ["nacos","开源","控制台","配置","权限","密钥","获取"]
 ---
 
 ## 用户问题 ： 
@@ -25,7 +27,7 @@ description: "根据提供的知识内容，关于“nacos-opensource nacos 控�
    - 特别地，如果Nacos控制台配置了权限管理，通常意味着对不同用户或角色设置了不同的访问权限，这可能要求在通过API请求配置时携带认证信息，如JWT Token或是API密钥等。
 
 3. **结论与建议**：
-   - 我目前了解到的信息可能不足以直接“是否需要配置权限密钥来获取配置”的问题细节，因为这依赖于Nacos具体版本的权限管理实现以及您的具体配置情况。
+   - 我目前了解到的信息可能不足以直接回答“是否需要配置权限密钥来获取配置”的问题细节，因为这依赖于Nacos具体版本的权限管理实现以及您的具体配置情况。
    - 如果您在Nacos控制台设置了权限，获取配置时很可能需要通过认证的上下文来执行，这可能涉及API密钥、Token或其他形式的授权验证，具体实现方式需查阅Nacos官方文档或查看您的Nacos实例配置。
 
 4. **进一步行动指南**：
@@ -54,7 +56,12 @@ description: "根据提供的知识内容，关于“nacos-opensource nacos 控�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15497)给我们反馈。

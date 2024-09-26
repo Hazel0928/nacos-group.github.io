@@ -1,11 +1,11 @@
 ---
 id: "question-history-8274"
 title: "Nacos2.0.3 data source does not support pgsql"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
-description: "在Nacos 2.0.3版本中，官方确实还未直接支持PostgreSQL数据库，这与您遇到的“Nacos2.0.3 data source does not support pgsql”的问题相吻合。根据 我了解的知识 中的信息，Nacos是从2.2版本开始才正式支持PostgreSQL的。因此，若"
-tags: ["Nacos2.0.3","data source","does not support","pgsql"]
-keywords: ["Nacos2.0.3","data source","does not support","pgsql"]
+description: "在Nacos 2.0.3版本中，官方确实还未直接支持PostgreSQL数据库，这与您遇到的“Nacos2.0.3 data source does not support pgsql”的问题相吻合。根据 知识 中的信息，Nacos是从2.2版本开始才正式支持PostgreSQL的。因此，若要解决您"
+tags: ["nacos-opensource","Nacos203","data","source","does","not","support"]
+keywords: ["nacos-opensource","Nacos203","data","source","does","not","support"]
 ---
 
 ## 用户问题 ： 
@@ -14,7 +14,7 @@ keywords: ["Nacos2.0.3","data source","does not support","pgsql"]
 ---------------
 ## 专家官方解答 ：
 
-在Nacos 2.0.3版本中，官方确实还未直接支持PostgreSQL数据库，这与您遇到的“Nacos2.0.3 data source does not support pgsql”的问题相吻合。根据 我了解的知识 中的信息，Nacos是从2.2版本开始才正式支持PostgreSQL的。因此，若要解决您当前在Nacos 2.0.3中不支持PostgreSQL数据源的问题，您可以考虑以下几个步骤：
+在Nacos 2.0.3版本中，官方确实还未直接支持PostgreSQL数据库，这与您遇到的“Nacos2.0.3 data source does not support pgsql”的问题相吻合。根据 {{{知识}}} 中的信息，Nacos是从2.2版本开始才正式支持PostgreSQL的。因此，若要解决您当前在Nacos 2.0.3中不支持PostgreSQL数据源的问题，您可以考虑以下几个步骤：
 
 1. **升级Nacos版本**：首先推荐的做法是将您的Nacos服务升级到2.2或更高版本，这些版本原生支持PostgreSQL。您可以在[Nacos GitHub Release页面](https://github.com/alibaba/nacos/releases)找到最新的发行版进行升级。
 
@@ -43,7 +43,12 @@ keywords: ["Nacos2.0.3","data source","does not support","pgsql"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13620)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-11759"
 title: "nacos 作为配置中心，微服务让别人调用，怎么做？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "为了使Nacos作为配置中心的微服务能够被其他服务调用，您可以遵循以下步骤进行配置和部署，基于提供的Nacos开源信息与集成Spring Cloud的场景：### 1. 准备Nacos Server- 确保您已安装并启动了Nacos Server。如果尚未进行，参考[Nacos快速入门](../qu"
-tags: ["配置中心","微服务"]
-keywords: ["配置中心","微服务"]
+tags: ["nacos","配置中心","微服务","调用","实现","方法","整合"]
+keywords: ["nacos","配置中心","微服务","调用","实现","方法","整合"]
 ---
 
 ## 用户问题 ： 
@@ -70,7 +70,12 @@ keywords: ["配置中心","微服务"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13786)给我们反馈。

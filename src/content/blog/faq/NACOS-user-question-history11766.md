@@ -1,11 +1,11 @@
 ---
 id: "question-history-11766"
 title: "nacos和eureka怎么选？"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在选择Nacos与Eureka之间，我们可以根据以下几个方面来分析：1. **功能需求**：Nacos相比Eureka，提供了更全面的功能集。它不仅支持服务发现和注册，还集成了配置管理、消息总线等特性。如果你的项目需要动态配置管理或更复杂的服务治理能力，Nacos可能是更优选择。2. **可靠性与多"
-tags: ["nacos","eureka","选择","对比"]
-keywords: ["nacos","eureka","选择","对比"]
+tags: ["nacos","eureka","选","择","对比","开源"]
+keywords: ["nacos","eureka","选","择","对比","开源"]
 ---
 
 ## 用户问题 ： 
@@ -45,7 +45,12 @@ keywords: ["nacos","eureka","选择","对比"]
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13793)给我们反馈。

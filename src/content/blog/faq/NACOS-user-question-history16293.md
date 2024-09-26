@@ -1,9 +1,11 @@
 ---
 id: "question-history-16293"
 title: "nacos 2.3.0 搭建是集群模式，并且使用mysql数据库作为存储，那如果升级到2.4.0集群模式，"
-date: "2024-07-25"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据已有的知识信息，Nacos 2.3.0 使用 MySQL 数据库作为存储，并且计划升级到 2.4.0 版本的集群模式。关键在于了解 Nacos 从 2.3.0 升级到 2.4.0 版本之间，其数据库兼容性或配置需求是否有变化。虽然具体的变更细节需查阅 Nacos 官方发布的 2.4.0 版本更新"
+tags: ["nacos","230","240","集群模式","mysql","数据库","升级"]
+keywords: ["nacos","230","240","集群模式","mysql","数据库","升级"]
 ---
 
 ## 用户问题 ： 
@@ -49,7 +51,12 @@ description: "根据已有的知识信息，Nacos 2.3.0 使用 MySQL 数据库�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16306)给我们反馈。

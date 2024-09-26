@@ -1,11 +1,11 @@
 ---
 id: "question-history-14712"
 title: "nacos配置加密插件。新增可以，如果再修改配置重新发布后内容又没加密是什么情况呢？"
-date: "2024-05-29"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "首先，让我们根据已有的知识分析这个问题。当遇到配置在初次加密发布后，再次修改并重新发布后内容未保持加密状态的情况，可能的原因有几个方面：1. **加密插件未正确配置或启用**：确保在Nacos客户端和服务端都正确安装并启用了配置加密插件。根据Nacos官方文档，配置加密功能是从2.1版本开始提供的，"
-tags: ["nacos配置加密插件","性能","报错","修改配置","重新发布","内容未加密"]
-keywords: ["nacos配置加密插件","性能","报错","修改配置","重新发布","内容未加密"]
+tags: ["nacos","配置加密插件","修改配置","重新发布","内容未加密","报错","性能"]
+keywords: ["nacos","配置加密插件","修改配置","重新发布","内容未加密","报错","性能"]
 ---
 
 ## 用户问题 ： 
@@ -63,7 +63,12 @@ keywords: ["nacos配置加密插件","性能","报错","修改配置","重新发
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14733)给我们反馈。

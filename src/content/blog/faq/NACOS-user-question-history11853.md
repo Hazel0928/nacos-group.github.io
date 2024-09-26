@@ -1,11 +1,11 @@
 ---
 id: "question-history-11853"
 title: "Nacos 我用三个节点组成nacos集群，其中有一个节点挂掉了，重启之后发现和另外两个数据不一致，就是在"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您提供的错误信息和已知的知识，问题分析及解决步骤如下：### 问题分析：1. **节点重启后数据不一致**：当您重启挂掉的Nacos节点后，该节点与集群中其他节点的数据不一致，特别是在修改服务权重后，该节点上的变更未能生效，而其他节点生效。这表明重启节点未能成功同步到最新的集群数据。2. **日"
-tags: ["集群","节点挂掉","重启","数据不一致","服务权重","web界面","刷新不生效","其他两个生效","日志报错","ERROR","DISTRO-INIT","load snapshot","Nacos:Naming:v2:ClientData","10.111.107.10:8878","failed","DistroException","DISTRO-EXCEPTION","DISTRO","Cancel get snapshot","target server unhealthy","DistroClientTransportAgent","getDatumSnapshot","DistroLoadDataTask","loadAllDataSnapshotFromRemote","load","run","Executors","RunnableAdapter","FutureTask","ScheduledThreadPoolExecutor","ScheduledFutureTask","access","ThreadPoolExecutor","Worker","Thread"]
-keywords: ["集群","节点挂掉","重启","数据不一致","服务权重","web界面","刷新不生效","其他两个生效","日志报错","ERROR","DISTRO-INIT","load snapshot","Nacos:Naming:v2:ClientData","10.111.107.10:8878","failed","DistroException","DISTRO-EXCEPTION","DISTRO","Cancel get snapshot","target server unhealthy","DistroClientTransportAgent","getDatumSnapshot","DistroLoadDataTask","loadAllDataSnapshotFromRemote","load","run","Executors","RunnableAdapter","FutureTask","ScheduledThreadPoolExecutor","ScheduledFutureTask","access","ThreadPoolExecutor","Worker","Thread"]
+tags: ["Nacos","集群","节点挂掉","数据不一致","服务权重","刷新不生效","日志报错"]
+keywords: ["Nacos","集群","节点挂掉","数据不一致","服务权重","刷新不生效","日志报错"]
 ---
 
 ## 用户问题 ： 
@@ -69,7 +69,12 @@ at java.lang.Thread.run(Thread.java:748)
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13825)给我们反馈。

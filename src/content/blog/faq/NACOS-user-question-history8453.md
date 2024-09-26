@@ -1,11 +1,11 @@
 ---
 id: "question-history-8453"
 title: "各位大佬，你们在生产上NACOS 配置中心和注册中心是分两个集群部署还是放在一个集群中"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在生产环境中，Nacos 配置中心和注册中心的部署策略应依据实际业务需求和集群规模灵活决定。以下是根据提供的知识内容分析得出的建议：### 分析原因：1. **资源利用率与运维便捷性**：若服务数量与配置数量适中，且对数据隔离性要求不高，合并在一个集群中部署可以简化架构，便于管理和维护。2. **高"
-tags: ["NACOS","配置中心","注册中心","分两个集群部署","一个集群"]
-keywords: ["NACOS","配置中心","注册中心","分两个集群部署","一个集群"]
+tags: ["nacos-opensource","NACOS","配置中心","注册中心","集群部署","两个集群","一个集群"]
+keywords: ["nacos-opensource","NACOS","配置中心","注册中心","集群部署","两个集群","一个集群"]
 ---
 
 ## 用户问题 ： 
@@ -59,7 +59,12 @@ keywords: ["NACOS","配置中心","注册中心","分两个集群部署","一个
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13670)给我们反馈。

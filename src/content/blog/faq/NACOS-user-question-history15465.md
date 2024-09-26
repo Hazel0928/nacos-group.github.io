@@ -1,9 +1,11 @@
 ---
 id: "question-history-15465"
 title: "nacos 鉴权涉及到端口有哪些？"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在Nacos的鉴权过程中，直接涉及的端口主要是用于HTTP通信的主端口，默认为8848。这是客户端、控制台以及OpenAPI进行交互的主要端口。鉴权操作如登录获取accessToken通常是通过此端口进行的，例如使用curl命令登录Nacos服务器：```plaincurl -X POST '127"
+tags: ["nacos","开源","鉴权","端口","涉及","列举","详情"]
+keywords: ["nacos","开源","鉴权","端口","涉及","列举","详情"]
 ---
 
 ## 用户问题 ： 
@@ -51,7 +53,12 @@ curl -X GET '127.0.0.1:8848/nacos/v1/cs/configs?accessToken=your_access_token_he
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15535)给我们反馈。

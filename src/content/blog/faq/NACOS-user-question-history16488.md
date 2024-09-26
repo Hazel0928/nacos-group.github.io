@@ -1,9 +1,11 @@
 ---
 id: "question-history-16488"
 title: "如何在Dubbo中配置Nacos集群并指定namespace"
-date: "2024-08-08"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "为了在Dubbo中配置Nacos集群并指定namespace，我们首先需要理解几个关键点以及如何依据这些信息进行操作。根据您的问题，我会先分析需求的背景和必要性，然后基于我了解的知识提供相应的指导。不过，请注意，直接提供的我了解的知识内容未明确列出，我将基于Nacos与Dubbo集成的一般知识来构建"
+tags: ["nacos","opensource","Dubbo","配置","Nacos","集群","namespace"]
+keywords: ["nacos","opensource","Dubbo","配置","Nacos","集群","namespace"]
 ---
 
 ## 用户问题 ： 
@@ -86,7 +88,12 @@ description: "为了在Dubbo中配置Nacos集群并指定namespace，我们首�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16493)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-15620"
 title: "目前哪个版本nacos最常用"
-date: "2024-06-18"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的知识内容，目前最常用的Nacos版本应该是2.X系列的最新稳定版本。Nacos团队推荐使用2.X版本，因为1.X版本虽然稳定，但已停止功能迭代，仅进行BUG修复和安全更新。要获取2.X的最新稳定版本，可以直接访问[Nacos官网下载页面](https://nacos.io/download"
+tags: ["nacos","opensource","版本","最常用"]
+keywords: ["nacos","opensource","版本","最常用"]
 ---
 
 ## 用户问题 ： 
@@ -37,7 +39,12 @@ description: "根据提供的知识内容，目前最常用的Nacos版本应该�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15679)给我们反馈。

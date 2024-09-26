@@ -1,9 +1,11 @@
 ---
 id: "question-history-16291"
 title: "我是用的2.3版本nacos, 默认没开启控制台账号密码登录功能，请问怎么开启"
-date: "2024-07-25"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您的描述和提供的信息，您使用的是Nacos 2.3版本，并且发现默认没有开启控制台账号密码登录功能。这是因为从Nacos 2.2.2版本开始，为了减少用户的误解，当服务端未开启鉴权时，默认控制台不再显示登录页面，可以直接访问，并在控制台中提示当前集群未开启鉴权状态。若要开启控制台的账号密码登录功"
+tags: ["nacos","23","版本","控制台","账号","密码","开启"]
+keywords: ["nacos","23","版本","控制台","账号","密码","开启"]
 ---
 
 ## 用户问题 ： 
@@ -46,8 +48,6 @@ description: "根据您的描述和提供的信息，您使用的是Nacos 2.3版
 * [Authorization](https://nacos.io/docs/latest/guide/user/auth)
  
  * 专家经验：关闭默认控制台 
- 
- * 专家经验：Nacos 快速开始 
 
 
  <font color="#949494">---------------</font> 
@@ -56,7 +56,12 @@ description: "根据您的描述和提供的信息，您使用的是Nacos 2.3版
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16304)给我们反馈。

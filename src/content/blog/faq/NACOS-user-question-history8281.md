@@ -1,11 +1,11 @@
 ---
 id: "question-history-8281"
 title: "client 端的快照是否可以支持可配置。Client端的配置信息目前会在本地保存一份的快照，有一些敏感数"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "Nacos Client端的快照功能确实是支持配置的，以适应不同场景下的需求，尤其是关于敏感数据的处理。根据提供的知识，以下是对您问题的详细解答：1. **快照保存位置的配置**：Nacos Client允许您自定义快照的保存目录。通过设置JVM参数`-D JM.SNAPSHOT.PATH=/pat"
-tags: ["client端","快照","可配置","敏感数据","本地缓存","多种保存形式","不保存快照"]
-keywords: ["client端","快照","可配置","敏感数据","本地缓存","多种保存形式","不保存快照"]
+tags: ["nacos-opensource","client端","快照","可配置","敏感数据","本地缓存","多种保存形式"]
+keywords: ["nacos-opensource","client端","快照","可配置","敏感数据","本地缓存","多种保存形式"]
 ---
 
 ## 用户问题 ： 
@@ -41,7 +41,12 @@ Nacos Client端的快照功能确实是支持配置的，以适应不同场景�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13627)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-8448"
 title: "请教一下,针对于客户端都是1.x的场景,长轮训负载不均衡的情况,有什么方法解决吗 除了加VIP 。能通过服"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "针对于客户端都是1.x的场景，长轮训负载不均衡的问题，虽然直接通过服务器节点主动拒绝长轮训请求以促使客户端切换节点的方法并不常见，但我们可以探讨其可行性及替代方案。### 原因分析根据提供的知识，长轮询机制下，客户端每隔30秒会重新发起请求，这期间连接相对固定，可能导致负载不均。VIP/SLB方案是"
-tags: ["客户端","1.x","长轮训","负载不均衡","解决方法","VIP","服务器节点","拒绝","长轮训请求","客户端切换","可行性","拒绝请求","当前节点"]
-keywords: ["客户端","1.x","长轮训","负载不均衡","解决方法","VIP","服务器节点","拒绝","长轮训请求","客户端切换","可行性","拒绝请求","当前节点"]
+tags: ["nacos-opensource","客户端","1x","长轮训","负载不均衡","解决方法","VIP"]
+keywords: ["nacos-opensource","客户端","1x","长轮训","负载不均衡","解决方法","VIP"]
 ---
 
 ## 用户问题 ： 
@@ -53,7 +53,12 @@ keywords: ["客户端","1.x","长轮训","负载不均衡","解决方法","VIP",
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13665)给我们反馈。

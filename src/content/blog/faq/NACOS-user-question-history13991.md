@@ -1,11 +1,11 @@
 ---
 id: "question-history-13991"
 title: "nacos安装配置和部署教程"
-date: "2024-05-22"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要进行Nacos的安装配置和部署，您可以遵循以下详细步骤：### 1. 版本选择- **推荐版本**：根据官方推荐，稳定版本为2.3.2。请访问[Nacos Release Notes](https://github.com/alibaba/nacos/releases)以获取最新信息。### 2."
-tags: ["安装配置","部署教程"]
-keywords: ["安装配置","部署教程"]
+tags: ["nacos","开源","安装配置","部署","教程"]
+keywords: ["nacos","开源","安装配置","部署","教程"]
 ---
 
 ## 用户问题 ： 
@@ -85,9 +85,7 @@ cd distribution/target/nacos-server-$version/nacos/bin
 
 ## 参考链接 ：
 
-* 专家经验：Nacos 快速开始 
- 
- * 专家经验：Nacos nacos 2.3.0全新安装也需要关闭双写吗？ 
+* 专家经验：Nacos nacos 2.3.0全新安装也需要关闭双写吗？ 
  
  * [Nacos 2.0 升级文档](https://nacos.io/docs/latest/upgrading/200-upgrading)
 
@@ -98,7 +96,12 @@ cd distribution/target/nacos-server-$version/nacos/bin
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=14009)给我们反馈。

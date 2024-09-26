@@ -1,9 +1,11 @@
 ---
 id: "question-history-15454"
 title: "通过gateway使用lb: user转发路由报错，服务不可用"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "针对问题“nacos-opensource 通过gateway使用lb://user转发路由报错，服务不可用”，我们可以依据提供的知识进行如下分析和解答：### 分析问题原因：1. **服务注册问题**：首先需确认服务`user`是否已成功注册到Nacos服务列表中，并且状态正常。根据知识中提到的服"
+tags: ["nacos","opensource","gateway","lb","user","转发","路由"]
+keywords: ["nacos","opensource","gateway","lb","user","转发","路由"]
 ---
 
 ## 用户问题 ： 
@@ -62,7 +64,12 @@ description: "针对问题“nacos-opensource 通过gateway使用lb://user转发
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15524)给我们反馈。

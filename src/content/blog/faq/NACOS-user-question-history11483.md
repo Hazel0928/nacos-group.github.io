@@ -1,11 +1,11 @@
 ---
 id: "question-history-11483"
 title: "本地访问nacos失败:logs日志显示未配备数据源,怎么解决"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据你描述的问题，nacos-opensource 本地访问nacos失败:logs日志显示未配备数据源，这表明Nacos在启动时未能成功连接到其配置的数据源。尽管提供的参考内容主要聚焦于Nacos连接失败和超时的问题，但我们可以基于通用的故障排查逻辑来尝试解决这个问题。下面是一些可能的解决步骤：#"
-tags: ["本地访问","nacos","失败","logs日志","显示","未配备","数据源","解决"]
-keywords: ["本地访问","nacos","失败","logs日志","显示","未配备","数据源","解决"]
+tags: ["nacos-opensource","本地访问","nacos","失败","logs日志","未配备","数据源"]
+keywords: ["nacos-opensource","本地访问","nacos","失败","logs日志","未配备","数据源"]
 ---
 
 ## 用户问题 ： 
@@ -66,7 +66,12 @@ keywords: ["本地访问","nacos","失败","logs日志","显示","未配备","�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13770)给我们反馈。

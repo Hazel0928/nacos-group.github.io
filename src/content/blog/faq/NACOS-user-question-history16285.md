@@ -1,9 +1,11 @@
 ---
 id: "question-history-16285"
 title: "Nacos 2.2.0 控制台下线后，Dubbo服务依旧可以被请求到，等于下线无效，什么原因"
-date: "2024-07-25"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据提供的知识内容，我们可以分析和解答您的问题：**nacos-opensource Nacos 2.2.0 控制台下线后，Dubbo服务依旧可以被请求到，等于下线无效，什么原因？**### 分析问题原因：1. **Dubbo服务保活机制：** Dubbo服务可能采用了心跳机制或者其他方式维持服务的"
+tags: ["Nacos","220","控制台","下线","无效","Dubbo","服务"]
+keywords: ["Nacos","220","控制台","下线","无效","Dubbo","服务"]
 ---
 
 ## 用户问题 ： 
@@ -59,7 +61,12 @@ description: "根据提供的知识内容，我们可以分析和解答您的问
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=16298)给我们反馈。

@@ -1,11 +1,11 @@
 ---
 id: "question-history-8438"
 title: "大佬们，主中心和灾备中心用同一个数据库，但是集群是单独的，这样会影响服务调用吗？会不会出现调用混乱的情况"
-date: "2024-05-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "在使用Nacos作为配置中心和注册中心时，关于主中心和灾备中心配置的问题，如果二者使用的是同一个数据库，但集群是单独部署的，这种情况可能会引入一些潜在风险和挑战，但并不意味着一定会导致服务调用混乱。下面依据已有知识进行分析：### 分析原因：1. **数据一致性问题**：同一数据库意味着数据源共享，"
-tags: ["主中心","灾备中心","同一个数据库","集群","单独","服务调用","调用混乱"]
-keywords: ["主中心","灾备中心","同一个数据库","集群","单独","服务调用","调用混乱"]
+tags: ["nacos-opensource","主中心","灾备中心","同一个数据库","集群","单独","服务调用"]
+keywords: ["nacos-opensource","主中心","灾备中心","同一个数据库","集群","单独","服务调用"]
 ---
 
 ## 用户问题 ： 
@@ -59,7 +59,12 @@ keywords: ["主中心","灾备中心","同一个数据库","集群","单独","�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=13657)给我们反馈。

@@ -1,9 +1,11 @@
 ---
 id: "question-history-15450"
 title: "com.alibaba.shaded.io.grpc.statusRuntimeexception unk"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "根据您提供的错误信息`com.alibaba.shaded.io.grpc.statusRuntimeexception unknow http status code 0`，该问题似乎是由于gRPC通信时遇到了未知的HTTP状态码0，这通常指示着网络通信层面的问题或者是服务端未按预期响应。虽然直接"
+tags: ["nacos","开源","grpc","状态码","错误","连接","集群"]
+keywords: ["nacos","开源","grpc","状态码","错误","连接","集群"]
 ---
 
 ## 用户问题 ： 
@@ -69,7 +71,12 @@ description: "根据您提供的错误信息`com.alibaba.shaded.io.grpc.statusRu
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15520)给我们反馈。

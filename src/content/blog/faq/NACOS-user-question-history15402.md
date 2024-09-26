@@ -1,9 +1,11 @@
 ---
 id: "question-history-15402"
 title: "Nacos 如何配置获取自定义的配置文件"
-date: "2024-06-17"
+date: "2024-09-26"
 category: "expertConsultation"
 description: "要配置Nacos以获取自定义的配置文件，您可以遵循以下步骤操作，这基于您提供的信息和Nacos的工作机制：### 分析问题原因在微服务架构中，Nacos作为一个动态配置中心，允许开发者集中管理应用的配置信息。自定义配置文件的需求通常涉及到如何在应用程序中正确设置Nacos客户端以指向特定的配置数据。"
+tags: ["Nacos","配置","获取","自定义","配置文件","开源项目"]
+keywords: ["Nacos","配置","获取","自定义","配置文件","开源项目"]
 ---
 
 ## 用户问题 ： 
@@ -73,7 +75,12 @@ description: "要配置Nacos以获取自定义的配置文件，您可以遵循�
 
 ## <font color="#FF0000">答疑服务说明：</font> 
 
-本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>，在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。您也可以访问 : [全局专家答疑](https://answer.opensource.alibaba.com/docs/intro) 。 咨询其他产品的的问题
+本内容经由技术专家审阅的用户问答的镜像生成，我们提供了<font color="#FF0000">专家智能答疑服务</font>,使用方法：
+用法1： 在<font color="#FF0000">页面的右下的浮窗”专家答疑“</font>。
+用法2： 点击[专家答疑页](https://answer.opensource.alibaba.com/docs/intro)（针对部分网站不支持插件嵌入的情况）
+### 另：
 
+
+有其他开源产品的使用问题？[点击访问阿里AI专家答疑服务](https://answer.opensource.alibaba.com/docs/intro)。
 ### 反馈
 如问答有错漏，欢迎点：[差评](https://ai.nacos.io/user/feedbackByEnhancerGradePOJOID?enhancerGradePOJOId=15479)给我们反馈。
