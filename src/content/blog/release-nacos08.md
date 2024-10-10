@@ -11,7 +11,7 @@ category: release
 阿里巴巴微服务开源项目?[Dubbo Nacos](https://github.com/alibaba/nacos)? 于本周发布?**v0.8.0**?**PRE-GA**版本，终于初步完成了Road Map一个重要的里程碑版本（第一个可安全上生产的版本，特别感谢在前期勇于在生产上尝试Nacos的客户，社区会尽快寄出小礼品，表达对大家的感激之情），V0.8.0 版本主要在支持了登录、命名空间、Metrics监控（对接Prometheus）、通过Nacos-Sync 组件支持从传统的注册中心平滑的往Nacos服务数据迁移等特性，以更稳定和更高可用的姿态让用户在生产环境中支撑大家的微服务平台。
 
 ### Nacos 登录
-Nacos控制台支持登录、登出特性，以便更安全的上生产使用。<br />![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/9687/1548047848570-c92c232f-13eb-41e3-a8af-0660e3a58912.png#align=left&display=inline&height=894&linkTarget=_blank&name=image.png&originHeight=1430&originWidth=2876&size=195009&width=1797)
+Nacos控制台支持登录、登出特性，以便更安全的上生产使用。<br />![image.png](/img/1728552235052.png)
 
 
 ### 命名空间
@@ -27,7 +27,7 @@ properties.put(PropertyKeyConst.SERVER_ADDR, "127.0.0.1:8848");
 NamingService naming = NamingFactory.createNamingService(properties);
 ```
 
-这样通过这个NamingService实例读写的就都是命名空间74a3dbb9-36cb-43f5-8d31-006acfd61caa下的数据了。当然您也可以不指定命名空间ID，这样将会默认分配到public命名空间。发布完服务可以到Nacos控制台上查询服务信息：<br />![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/9687/1548312345294-d4bd95df-7e6d-4a36-8827-6a7ac0a00985.png#align=left&display=inline&height=553&linkTarget=_blank&name=image.png&originHeight=830&originWidth=1904&size=131287&width=1269)
+这样通过这个NamingService实例读写的就都是命名空间74a3dbb9-36cb-43f5-8d31-006acfd61caa下的数据了。当然您也可以不指定命名空间ID，这样将会默认分配到public命名空间。发布完服务可以到Nacos控制台上查询服务信息：<br />![image.png](/img/1728552235390.png)
 
 ### Metrics监控
 通过Metrics信息暴露，对接Prometheus加强Nacos实时监控，以便让用户对产品更有控制力。
@@ -37,7 +37,7 @@ Nacos 通过micrometer统计了运行时的核心指标：
 * 业务指标包括配置数，域名数，长连接，QPS，RT等
 * 异常指标记录了Nacos运行的内部异常micrometer提供了转化器能转化成多种metrics格式，Nacos目前支持常用的prometheus、elastic search和influxdb，后续可以根据具体情况进行调整。
 
-<br /><br />grafana具备强大的的数据可视化能力，能将采集的数据展示出来，支持多种数据源。同时可对重要指标配置告警规则，数据达到阈值时可以通知相关负责人。<br />Nacos官网提供了结合prometheus和grafana实现metrics监控<br /><br /><br />![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/53357/1548122164953-6011a9ee-a521-447c-a871-7ebcf10c2ce4.png#align=left&display=inline&height=417&linkTarget=_blank&originHeight=1584&originWidth=2832&size=0&width=746)
+<br /><br />grafana具备强大的的数据可视化能力，能将采集的数据展示出来，支持多种数据源。同时可对重要指标配置告警规则，数据达到阈值时可以通知相关负责人。<br />Nacos官网提供了结合prometheus和grafana实现metrics监控<br /><br /><br />![](/img/1728552235641.png)
 
 具体的详情可以参考官网[监控文档](https://nacos.io/docs/v1/guide/admin/monitor-guide/)。
 ### 
@@ -48,11 +48,11 @@ Nacos 通过micrometer统计了运行时的核心指标：
 #### 使用场景
 * 双向同步功能,支持Dubbo+Zookeeper服务平滑迁移到Dubbo+Nacos,享受Nacos更加优质的服务
 
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/4232/1548136490076-13655b30-b0e4-4363-95dc-72b79a080fc0.png#align=left&display=inline&height=246&linkTarget=_blank&name=image.png&originHeight=838&originWidth=1728&size=171454&width=508)
+![image.png](/img/1728552235911.png)
 
 * 多个网络互通的Region之间服务共享,打破Region之间的服务调用限制
 
-![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/4232/1548136895122-ba2be529-d959-4c9d-9fa4-74059bce1d18.png#align=left&display=inline&height=399&linkTarget=_blank&name=image.png&originHeight=798&originWidth=1136&size=64731&width=568)
+![image.png](/img/1728552236116.png)
 
 #### 支持的范围
 Nacos-Sync支持用户扩展不同注册中心服务同步，目前已支持的同步类型如下:
@@ -66,9 +66,9 @@ Nacos-Sync支持用户扩展不同注册中心服务同步，目前已支持的�
 Nacos-Sync提供了控制台方便你配置同步的服务数据:
 * 同步任务管理页面
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/4232/1548129423366-e1a37af4-3eb6-48f0-af76-84ec1f310ee2.png#align=left&display=inline&height=277&linkTarget=_blank&originHeight=1064&originWidth=2866&width=746)
+![](/img/1728552236432.png)
 * 注册中心管理页面
-## ![image.png](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/4232/1548129453620-f480a696-931b-4db4-b4c7-298ae7da029e.png#align=left&display=inline&height=562&linkTarget=_blank&name=image.png&originHeight=1124&originWidth=2876&size=190668&width=1438)
+## ![image.png](/img/1728552236617.png)
 
 具体项目信息请参考[Nacos-Sync产品页](https://github.com/nacos-group/nacos-sync)
 
@@ -85,7 +85,7 @@ Nacos 社区正在蓬勃发展，截止到发文为止，Nacos 短短几个月�
 要加入 Nacos 微信社区，你可以通过扫下面的**“超哥”**“超哥”** 帮你拉入 “Nacos社区微信交流群”
 
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2019/png/9687/1548047927520-89c34af8-899a-41b6-887c-9319461db519.png#align=left&display=inline&height=424&linkTarget=_blank&originHeight=1124&originWidth=1984&size=0&width=748)
+![](/img/1728552236832.png)
 
 * 作为代码贡献者加入 Nacos 社区
 

@@ -24,13 +24,13 @@ curl \
 - 在后端服务与前端设备之间有一层网关，负责流量过滤、路由、限流等流量管理工作。
 - 在后端集群中有一个连接 http 与 dubbo 服务的 “统一微服务入口应用”（通常也叫做 BFF，即 Backend for Frontend）。
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724303379481-3e9dc04c-07c5-4aaa-aa18-9dc2e0d293bd.webp#clientId=u4845f197-f961-4&from=paste&id=u5d965856&originHeight=332&originWidth=1080&originalType=url&ratio=2&rotation=0&showTitle=false&status=done&style=none&taskId=uce157bc2-3e13-408d-ba50-bc6e60abebf&title=)<br />BFF 应用通常可以使用 Spring Web 等常用框架开发，应用发布一系列的 http 服务，接收网关或前端设备流量，同时负责按需发起 dubbo 调用。<br />dubbo、triple 协议都支持这种接入架构。另外，在配置 BFF 应用调用 dubbo 服务时，可以使用普通的 dubbo 配置方式，也可以使用泛化调用等方式：
+![](/img/1728552178042.png)<br />BFF 应用通常可以使用 Spring Web 等常用框架开发，应用发布一系列的 http 服务，接收网关或前端设备流量，同时负责按需发起 dubbo 调用。<br />dubbo、triple 协议都支持这种接入架构。另外，在配置 BFF 应用调用 dubbo 服务时，可以使用普通的 dubbo 配置方式，也可以使用泛化调用等方式：
 
 - 配置接入 dubbo 协议时，使用泛化调用的优势是可以避免对服务二进制包的依赖，实现配置动态生效的效果。
 - 配置接入 triple 协议时，可以使用 http 调用方式，同样可避免对服务二进制包的依赖，实现配置动态生效的效果。
 <a name="EMPmU"></a>
 #### 去中心化接入方式
-与中心化架构相比，此方式并没有太大的差异，唯一的区别在于不需要额外的 BFF 应用，我们可以在网关直接调用后端 dubbo 服务。<br />![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724303379881-3fbaa8b8-97a7-4cfd-af69-6990f090d187.webp#clientId=u4845f197-f961-4&from=paste&id=ue511020b&originHeight=365&originWidth=1080&originalType=url&ratio=2&rotation=0&showTitle=false&status=done&style=none&taskId=ueee613c3-6005-4624-bd48-4c3e330bec4&title=)<br />但这种方式对网关有特别要求。如果后端是 dubbo 协议的话，则要求网关具备 http -> dubbo 协议转换的能力，但你会在接下来的文档中发现，我们可以通过多协议发布绕过协议转换，让网关直接通过 http 访问后端服务；如果后端是 triple 协议，就会更简单了，因为 triple 协议支持 application/json 格式的 http 请求。<br />使用不同的 rpc 协议也会影响架构选择，triple 协议由于原生支持 HTTP 访问，因此对两种架构方式都可以无差别支持，并且接入原理上也会更简单直接。而 dubbo 协议作为 Dubbo2 时代主推的协议，由于是基于 tcp 的二进制协议，因此在接入方式上存在一些不同。<br />我们将在接下来的两篇文档中介绍 dubbo、triple 两种协议的具体前端流量接入方式，文档同样适用于中心化、去中心化架构。
+与中心化架构相比，此方式并没有太大的差异，唯一的区别在于不需要额外的 BFF 应用，我们可以在网关直接调用后端 dubbo 服务。<br />![](/img/1728552178270.png)<br />但这种方式对网关有特别要求。如果后端是 dubbo 协议的话，则要求网关具备 http -> dubbo 协议转换的能力，但你会在接下来的文档中发现，我们可以通过多协议发布绕过协议转换，让网关直接通过 http 访问后端服务；如果后端是 triple 协议，就会更简单了，因为 triple 协议支持 application/json 格式的 http 请求。<br />使用不同的 rpc 协议也会影响架构选择，triple 协议由于原生支持 HTTP 访问，因此对两种架构方式都可以无差别支持，并且接入原理上也会更简单直接。而 dubbo 协议作为 Dubbo2 时代主推的协议，由于是基于 tcp 的二进制协议，因此在接入方式上存在一些不同。<br />我们将在接下来的两篇文档中介绍 dubbo、triple 两种协议的具体前端流量接入方式，文档同样适用于中心化、去中心化架构。
 <a name="xyds3"></a>
 ### 不同 rpc 协议接入示例详解
 <a name="pxC7Q"></a>
@@ -40,7 +40,7 @@ curl \
 - **多协议发布【推荐】**，为 dubbo 协议服务暴露 rest 风格的 http 协议访问方式，这种模式架构上会变得非常简单，通用的网关产品即可支持。
 - **通过网关实现 http->dubbo 协议转换**，这种方式需要将 http 协议转换为后端服务能识别的 dubbo 协议，要求网关必须支持 dubbo 协议。
 
-**同时发布 http、dubbo 协议**<br />**如果我们能让一个服务同时发布 dubbo、http 协议，这样后端调用是基于高效的 dubbo 二进制协议，同时浏览器、web服务等前端设施也可以用 http 协议访问到相同的服务。**好消息是，Dubbo 框架支持为同一个服务发布多个协议，并且支持客户端通过同一个端口以不同的协议访问服务，如下所示：<br />![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724303446562-99e4d2ed-a381-48f2-8621-4c311a814752.webp#clientId=u4845f197-f961-4&from=paste&id=ue9eeefb9&originHeight=372&originWidth=1080&originalType=url&ratio=2&rotation=0&showTitle=false&status=done&style=none&taskId=ue981b21f-1035-442e-bda9-11846fb82a0&title=)<br />为了实现同时发布 dubbo、http 协议，我们只需要在配置文件中增加一行配置即可：
+**同时发布 http、dubbo 协议**<br />**如果我们能让一个服务同时发布 dubbo、http 协议，这样后端调用是基于高效的 dubbo 二进制协议，同时浏览器、web服务等前端设施也可以用 http 协议访问到相同的服务。**好消息是，Dubbo 框架支持为同一个服务发布多个协议，并且支持客户端通过同一个端口以不同的协议访问服务，如下所示：<br />![](/img/1728552178457.png)<br />为了实现同时发布 dubbo、http 协议，我们只需要在配置文件中增加一行配置即可：
 ```
 dubbo:
   protocol:
@@ -67,7 +67,7 @@ public interface DemoService {
 这样，就能发布同时支持 dubbo、rest 两种协议的服务，对于 http 网关接入更为简单便捷，唯一成本是需要改造接口增加注解。<br />为 dubbo 协议服务增加了 http 访问方式之后，就可以很容易的将 dubbo 服务接入网关了。
 <a name="3cb4d457"></a>
 #### http 转 dubbo 协议
-如果您使用的是 Dubbo 3.3.x 版本，在决定考虑此方案之前，我们强烈推荐您仔细评估本文前一节的 多协议发布方案。除非您因为某些特殊原因真的无法接受多协议发布带来的应用改造成本（实际上只是改一行配置而已），否则这个方案应该作为第二选择。<br />如果要从网关接入后端 dubbo 服务，则前端的 HTTP 流量要经过一层 http -> dubbo 的协议转换才能实现正常调用。<br />![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724303599739-c95afab4-2dbc-4a22-9d3b-f1f25d24b01f.webp#clientId=u4845f197-f961-4&from=paste&id=uacb9728b&originHeight=440&originWidth=1080&originalType=url&ratio=2&rotation=0&showTitle=false&status=done&style=none&taskId=u8ee70f00-8379-4ce6-b911-c80f5346de7&title=)<br />如上图所示，从浏览器、手机或者 Web 服务器发送的 HTTP 请求，经过网关进行 http 到 dubbo 协议转换，网关最终转发 dubbo 协议到后端微服务集群。因此，我们需要一个支持 dubbo 协议转换的网关，来帮助实现协议转发，以下是该架构下网关需要实现的几个关键点：
+如果您使用的是 Dubbo 3.3.x 版本，在决定考虑此方案之前，我们强烈推荐您仔细评估本文前一节的 多协议发布方案。除非您因为某些特殊原因真的无法接受多协议发布带来的应用改造成本（实际上只是改一行配置而已），否则这个方案应该作为第二选择。<br />如果要从网关接入后端 dubbo 服务，则前端的 HTTP 流量要经过一层 http -> dubbo 的协议转换才能实现正常调用。<br />![](/img/1728552178731.png)<br />如上图所示，从浏览器、手机或者 Web 服务器发送的 HTTP 请求，经过网关进行 http 到 dubbo 协议转换，网关最终转发 dubbo 协议到后端微服务集群。因此，我们需要一个支持 dubbo 协议转换的网关，来帮助实现协议转发，以下是该架构下网关需要实现的几个关键点：
 
 - **协议转换**，支持 http 到 dubbo 的协议转换，包括参数映射。
 - **自动地址发现**，支持 Nacos、Zookeeper、Kubernetes 等主流注册中心，动态感知后端 dubbo 实例变化。
@@ -91,7 +91,7 @@ public interface DemoService {
 接下来我们就看一下，对于前端 HTTP 流量而言，如何通过一些通用的网关产品快速接入后端的 triple 微服务体系。相比于上一节介绍的 dubbo 协议，使用 triple 协议后，不再需要泛化调用、http -> dubbo 协议转换等步骤，任何主流的网关设备都可以通过 http 流量直接访问后端 triple 协议服务。
 <a name="9e31862a"></a>
 #### 原生 HTTP 接入
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724303599709-b6401577-f48f-4754-ae7c-ebacfa72fb03.webp#clientId=u4845f197-f961-4&from=paste&id=uf625f8fa&originHeight=425&originWidth=1080&originalType=url&ratio=2&rotation=0&showTitle=false&status=done&style=none&taskId=u26e341c9-180d-43cd-8bcd-ffaf8fbb5f9&title=)<br />如上图所示，从浏览器、手机或 Web 服务器过来的 HTTP 请求，网关可直接以 application/json 格式转发给后端 Dubbo 服务，后端服务之间则继续走 triple 二进制协议。**由于进出网关的都是标准的 HTTP 流量，网关不需要做任何的私有协议转换工作，不需要任何定制化逻辑，只需专注于流量路由等职责即可。**<br />在真正的生产环境下，**唯一需要网关解决的只剩下地址发现问题，即如何动态感知后端 triple 服务的实例变化？**好消息是，目前几款主流的开源网关产品如 Apache APISIX、Higress 等普遍支持以 Nacos、Zookeeper、Kubernetes 作为 upstream 数据源。<br />以下我们以 Higress + Nacos + Dubbo 的典型用法为例，详细说明整套机制的工作流程。<br />![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724303599665-184768d0-1ff4-4e27-ab4f-aeb65a7ccb58.webp#clientId=u4845f197-f961-4&from=paste&id=u9f52faa7&originHeight=347&originWidth=1080&originalType=url&ratio=2&rotation=0&showTitle=false&status=done&style=none&taskId=u317c179c-22e7-4771-9736-38125cdab35&title=)
+![](/img/1728552178942.png)<br />如上图所示，从浏览器、手机或 Web 服务器过来的 HTTP 请求，网关可直接以 application/json 格式转发给后端 Dubbo 服务，后端服务之间则继续走 triple 二进制协议。**由于进出网关的都是标准的 HTTP 流量，网关不需要做任何的私有协议转换工作，不需要任何定制化逻辑，只需专注于流量路由等职责即可。**<br />在真正的生产环境下，**唯一需要网关解决的只剩下地址发现问题，即如何动态感知后端 triple 服务的实例变化？**好消息是，目前几款主流的开源网关产品如 Apache APISIX、Higress 等普遍支持以 Nacos、Zookeeper、Kubernetes 作为 upstream 数据源。<br />以下我们以 Higress + Nacos + Dubbo 的典型用法为例，详细说明整套机制的工作流程。<br />![](/img/1728552179128.png)
 <a name="8bc7a709"></a>
 ##### **启动示例应用**
 本示例完整源码请参见 apache/dubbo-samples 中的 dubbo-samples-gateway-higress-triple 示例。<br />该示例中定义并发布了一个定义为 org.apache.dubbo.samples.gateway.api.DemoService 的 triple 服务：

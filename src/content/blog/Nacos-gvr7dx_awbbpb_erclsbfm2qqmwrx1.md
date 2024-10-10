@@ -7,19 +7,19 @@ keywords: ["Nacos"]
 authors: "CH3CHO"
 ---
 
-Nacos社区刚刚迎来了 Star 突破 30000的里程碑，从此迈上了一个新的阶段。感谢大家的一路支持、信任和帮助！！！![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726640303722-9ceba3d1-9f67-446c-aa26-ef1f67b61d05.png)
+Nacos社区刚刚迎来了 Star 突破 30000的里程碑，从此迈上了一个新的阶段。感谢大家的一路支持、信任和帮助！！！![](/img/1728552216274.png)
 
 **Nacos** `/nɑ:kəʊs/`是 Dynamic **Na**ming and **Co**nfiguration **S**ervice的首字母简称，定位于一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台。从 2018 年 7 月开始宣布开源以来，已经走过了第六个年头，在这六年里，备受广大开源用户欢迎，收获许多社区大奖。Nacos 在社区共同的建设下不断成长，逐步的开始帮助用户解决实际问题，助力企业数字化转型，目前已经广泛的使用在国内的公司中，根据微服务领域调查问卷，Nacos 在注册配置中心领域已经成为**国内首选**，占有**50%+国内市场**份额，被**各行各业的头部企业**广泛使用！
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726642725200-c1cdddca-39b3-476e-9cf6-1e2e1912ca27.png)
+![](/img/1728552216528.png)
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726641976579-548dbaa5-9a42-4300-acc3-ade7e4c7763e.png)
+![](/img/1728552216728.png)
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726641999602-25c3633c-bfda-4ab4-a9c4-33ecea01b982.png)
+![](/img/1728552216929.png)
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726642019612-df7fd757-bd31-4075-acaf-6f950f35c3bc.png)
+![](/img/1728552217123.png)
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726642043922-8c057cfe-bb86-4683-9bcb-6740f0041ea5.png)
+![](/img/1728552217375.png)
 
 Nacos社区想借此良辰，回顾一下近两年社区的发展，以及简单进行一下未来的展望和演进的规划。
 
@@ -30,7 +30,7 @@ Nacos社区想借此良辰，回顾一下近两年社区的发展，以及简单
 ### 插件化能力
 在2.0.X版本中，Nacos-Client和Nacos-Server经过对部分gRPC使用问题的修复，解决了1.X架构所带来的性能瓶颈，同时实现了稳定的生产环境运行。Nacos社区开始致力于插件化改造，支持用户灵活实现和定制插件。用户可以根据自身业务需求，通过实现相关的SPI接口和引入jar包，轻松实现自定义的鉴权、加解密和多数据源等附加功能。插件化的升级使Nacos能够充分实现核心功能与多种附加功能的解耦，从而显著增强了可扩展性。
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726645750938-114e96b6-ba01-47fd-b2c1-25e764bf39d2.png)
+![](/img/1728552217541.png)
 
 在过去两年的社区发展中，Nacos推出了多个[插件](https://github.com/nacos-group/nacos-plugin)，包括鉴权、配置加解密、数据源、变更轨迹、限流以及配置变更Hook等。特别值得一提的是`数据源插件`，许多插件实现得到了社区的广泛贡献，并且还有众多公司、团队以及个人根据需求定制适配各类数据源，以满足其业务和部署的需求。
 
@@ -54,21 +54,21 @@ Nacos 官网 [https://nacos.io/](https://nacos.io/)是开源产品 Nacos 的官�
 
 在文档结构方面，我们进行了优化，新版本的文档将按照不同版本进行拆分，以避免之前出现的文档与新版本特性不一致的问题。同时，用户可以直接访问预览版文档，从而提升文档的更新效率。
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726649131267-a6f2375f-29ce-4f0c-a79e-31478fbb3ba0.png)
+![](/img/1728552217723.png)
 
 ### 电子书在线预览和博客文章分类
 升级后的新官网也新增了《Nacos 架构与原理》电子书的预览版本，便于用户在线查阅。帮助用户快速理解Nacos的架构与原理，更好的使用Nacos。
 
 另外对之前的博客文章进行了分类展示，有技术含量较高的技术博客、有社区的新闻和活动等等，帮助官网访问者快速找到自己感兴趣的内容进行阅读。
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726649165901-89f2fba0-1f0f-4fbd-bfcc-d2c044a14d7f.png)
+![](/img/1728552217956.png)
 
 ### 使用大模型进行专家答疑
 最后，升级后的新官网引入了通义大模型，针对社区中常见问题进行了训练，在官网中提供了`专家答疑`功能。社区用户可以就`微服务`和 `Nacos 相关问题`进行咨询，借助大模型的搜索和推理能力，为用户提供解决方案。
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726649188616-4a3db8cc-4532-451a-a81b-41e3a012cfe6.png)
+![](/img/1728552218173.png)
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1726649303215-0e4932f6-e7ce-4312-8405-8e6556ba9a9e.png)
+![](/img/1728552218461.png)
 
 ## 多语言和更多生态支持
 同时多语言上，`Go-SDK`也已经追平`Java-SDK`的功能和稳定性，`Python-SDK`也发布了稳定版，并正在积极适配`2.X`版本的新特性，另外社区中也有很多优秀的生态组建。
@@ -87,7 +87,7 @@ Nacos 官网 [https://nacos.io/](https://nacos.io/)是开源产品 Nacos 的官�
 `nginx`作为反向代理和网关，在过去的十年里一直经久不衰；但其配置无法动态更新，只能通过`reload`命令进行配置的重载一直被社区所诟病。[nginx-nacos-upstream](https://github.com/nacos-group/nginx-nacos-upstream)项目就是希望使用nacos来解决nginx的动态配置问题，项目开发者近期将项目贡献至Nacos社区，并保持持续的维护和更新。
 
 # 未来展望
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724292846641-ca44d47d-2bee-481b-897f-37d7e751ece6.webp)
+![](/img/1728552218609.png)
 
 ## Nacos 3.0
 Nacos 2.X版本随着插件化逐渐完善，功能已经趋于稳定。Nacos社区在去年已经开始想社区用户征集Nacos3.0中希望的功能和方向。在众多的反馈中，我们能够展望Nacos3.0将着重于`更安全`，`更泛用`，`更云原生`进行演进。
@@ -99,7 +99,7 @@ Nacos 2.X版本随着插件化逐渐完善，功能已经趋于稳定。Nacos社
 
 另外，Nacos 3.0也计划拆分Nacos控制台和Nacos引擎的部署架构，允许Nacos控制台使用不同的端口和不同的进程启动，从部署架构层面和网络层面对访问来源进行进一步的限制，以提升安全性。
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/297800/1724224359292-22fabd7e-c17b-409a-ae9e-f017f5fe7917.png?x-oss-process=image%2Fformat%2Cwebp%2Fresize%2Cw_1500%2Climit_0)
+![](/img/1728552219168.png)
 
 ### 更泛用
 Nacos 之前的应用场景根据聚焦在微服务领域和分布式高可用领域，并伴随一些动态分发和管理的场景。
@@ -108,7 +108,7 @@ Nacos 之前的应用场景根据聚焦在微服务领域和分布式高可用�
 
 同时Nacos 3.0也会尝试向AI方向的使用场景进行探索，比如动态prompt、训练任务调度分配等场景。让Nacos `More than Microservice`。
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/2483/1713424054235-44a1c6e6-b907-40d6-a626-fdeee073133c.png#clientId=ud164d702-1502-4&from=paste&height=818&id=ud72eed62&originHeight=1800&originWidth=3562&originalType=binary&ratio=2.200000047683716&rotation=0&showTitle=false&size=2481452&status=done&style=none&taskId=u3550d490-7c88-44ec-a7e3-bc2af73d2ec&title=&width=1619.0908739980596)
+![](/img/1728552219482.png)
 
 ### 更云原生
 <font style="color:rgb(53, 56, 65);">Nacos在2.X版本已支持了MCP协议及简单XDS协议，进行了初步的生产环境实践，但这需要依赖于Istio等组件进行协议数据的聚合以及二次下发，这增加了运维成本和问题的排查链路。未来，我们将通过开展以下工作来提供云原生支持： </font>

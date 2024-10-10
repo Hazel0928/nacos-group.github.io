@@ -75,11 +75,11 @@ _**<font style="color:rgb(242, 98, 46);">
 
 <font style="color:rgba(0, 0, 0, 0.9);">自由开发者 onewe 同学主要优化统一了 Nacos 客户端的配置参数的加载逻辑，同时优化了 LDAP 鉴权插件和大量控制台使用内容，找到并修复了不少 Nacos 的问题。经社区 PMC 及 Committer 的投票表决，提名为 Nacos 社区的 Committer。</font>
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724292846271-90dfc6c5-cfcd-4244-a763-247ccf295359.webp)![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724292844303-8fe3d9c7-1d12-407b-a30b-764d3c161cb8.webp)
+![](/img/1728552176806.png)![](/img/1728552177000.png)
 
 <font style="color:rgba(0, 0, 0, 0.9);">另外来自小米科技的 chenhao26-nineteen 同学主要完成了 Nacos 批量注册的新功能，并且使用该新功能优化了 Nacos-Sync 的同步逻辑，极大提升了 Nacos-Sync 的性能，同时也修复了不少 Nacos 的问题。经社区 PMC 及 Committer 的投票表决，提名为 Nacos 社区的 Committer。</font>
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724292844328-66f0223b-1289-47cb-9809-bc12c6a5aa2f.webp)![](https://intranetproxy.alipay.com/skylark/lark/0/2024/png/299576/1724292844251-264b9fef-5a65-4d97-abe1-c0b52cd3cf1d.png)
+![](/img/1728552177186.png)![](/img/1728552177410.png)
 
 <font style="color:rgba(0, 0, 0, 0.9);">期望更多小伙伴一起参与贡献～～</font>
 
@@ -94,11 +94,11 @@ _**<font style="color:rgb(242, 98, 46);">
 
 <font style="color:rgba(0, 0, 0, 0.9);">Nacos 社区同时也开启了关于 </font>[<font style="color:rgba(0, 0, 0, 0.9);">Nacos 3.0</font>](https://mp.weixin.qq.com/s?__biz=MzU4NzU0MDIzOQ==&mid=2247511397&idx=3&sn=3ed3ef95e5ce1e396554ba4f370a0254&scene=21#wechat_redirect)<font style="color:rgba(0, 0, 0, 0.9);"> </font><font style="color:rgba(0, 0, 0, 0.9);">的畅想和规划，欢迎社区积极参与到新版本的建设中。</font>
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724292846641-ca44d47d-2bee-481b-897f-37d7e751ece6.webp)
+![](/img/1728552177643.png)
 
 <font style="color:rgba(0, 0, 0, 0.9);">最后欢迎大家钉钉扫码加入 Nacos 社区群</font>
 
-![](https://intranetproxy.alipay.com/skylark/lark/0/2024/webp/299576/1724292844732-3198d21e-6965-4629-b1d9-242176ddaf6c.webp)
+![](/img/1728552177846.png)
 
 _**<font style="color:rgb(34, 34, 34);">相关文档链接</font>**_
 
