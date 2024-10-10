@@ -4,7 +4,7 @@ description: "Star 3w+，向更安全、更泛化、更云原生的 Nacos3.0 演
 date: "2024-09-26"
 category: "announcement"
 keywords: ["Nacos"]
-authors: "CH3CHO"
+authors: "阿里云高级工程师"
 ---
 
 Nacos社区刚刚迎来了 Star 突破 30000的里程碑，从此迈上了一个新的阶段。感谢大家的一路支持、信任和帮助！！！![](/img/1728552216274.png)
@@ -109,10 +109,6 @@ Nacos 之前的应用场景根据聚焦在微服务领域和分布式高可用�
 同时Nacos 3.0也会尝试向AI方向的使用场景进行探索，比如动态prompt、训练任务调度分配等场景。让Nacos `More than Microservice`。
 
 ![](/img/1728552219482.png)
-
-### 更云原生
-<font style="color:rgb(53, 56, 65);">Nacos在2.X版本已支持了MCP协议及简单XDS协议，进行了初步的生产环境实践，但这需要依赖于Istio等组件进行协议数据的聚合以及二次下发，这增加了运维成本和问题的排查链路。未来，我们将通过开展以下工作来提供云原生支持： </font>
-
 <font style="color:rgb(53, 56, 65);">1、 原生支持XDS协议，可直接提供完整的XDS协议数据和内容，可选的去除关于Istio等组件的依赖，减轻部署和运维负担。</font>
 
 <font style="color:rgb(53, 56, 65);">2、打通Kubernetes数据，进行数据的双向同步，帮助用户更好的解决传统部署架构和Kubernetes部署的互通场景，同时提供ServiceMesh化支持，将Nacos发展成云原生时代高性能注册中心，接入Kubernetes核心生态。</font>
@@ -129,16 +125,16 @@ Nacos的成就和快速发展，离不开社区贡献者和其他参与者的热
 
 同时Nacos也积极参与社会各界举办的开源活动，比如中国科学院软件研究所的开源之夏、<font style="color:rgb(32, 45, 64);">GitLink的编程夏令营、天池的通义灵码活动等等。获得了很多开源奖项和认可。</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/1577777/1704351655688-253fa8b4-4437-4b6e-a38a-0d4952468dac.jpeg?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0%2Finterlace%2C1)
+![](https://img.alicdn.com/imgextra/i1/O1CN01Xt9Mi21MeGr0Cyrht_!!6000000001459-0-tps-2116-978.jpg)
 
-| ![](https://cdn.nlark.com/yuque/0/2023/png/1577777/1679042599053-6d168221-bc17-4d88-bfde-bf69375783f8.png#averageHue=%23908a7e&clientId=ue18ba04c-3f94-4&from=paste&height=640&id=uf2bd9bae&name=image.png&originHeight=1280&originWidth=960&originalType=binary&ratio=2&rotation=0&showTitle=false&size=1304756&status=done&style=none&taskId=u9421b95d-37ea-46f2-a439-790f5893431&title=&width=480) | ![](https://cdn.nlark.com/yuque/0/2024/jpeg/1577777/1704352802985-4380273f-b37c-4073-8d3d-91e989c3675b.jpeg?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0%2Finterlace%2C1) |
+| ![](https://img.alicdn.com/imgextra/i2/O1CN01sHvCr51Z4d2Iwp3Ol_!!6000000003141-0-tps-790-1048.jpg) | ![](https://img.alicdn.com/imgextra/i3/O1CN01rH99si1EK6UMRivXV_!!6000000000332-0-tps-1194-842.jpg) |
 | --- | --- |
 | | |
 
 
 <font style="color:rgb(53, 56, 65);">最后再次感谢所有参与Nacos社区和活动的用户、贡献者、Committer，非常感谢你们的付出！我们一起让Nacos更强大！！！同时也欢迎更多加入社区贡献者队伍，共同进行Nacos云原生化实践！</font>
 
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/1577777/1721799847016-353eca94-a5b6-4a73-bfc9-686a5bd2a510.jpeg?x-oss-process=image%2Fformat%2Cwebp%2Fresize%2Cw_1080%2Climit_0%2Finterlace%2C1)
+![](https://img.alicdn.com/imgextra/i4/O1CN01qOYVoX1DsAKLKzfGh_!!6000000000271-49-tps-1080-1177.webp)
 
 
 
